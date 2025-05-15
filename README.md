@@ -24,6 +24,7 @@ project-root/
 │   ├── metric_plots.py
 │   ├── parser.py
 │   ├── get-pip.py
+│   ├── batches_comparison.py
 │   └── etx_estimation_plot.py
 ├── Makefile             # Compilation instructions
 └── project-conf.h       # Project configuration
