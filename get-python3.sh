@@ -11,30 +11,19 @@ export DEBIAN_FRONTEND=noninteractive
 
 # 1) Update package lists to get the latest version info
 echo "=== Updating package list..."
-sudo apt-get update
+sudo apt update
 
 # 2) Install core build tools and Python headers
 echo "=== Installing build-essential, Python headers, and compilers..."
-sudo apt-get install -y \
-    build-essential \           # GCC, make, etc.
-    python3-dev \               # Python C headers
-    python3-pip \               # pip for Python 3
-    gfortran \                  # Fortran compiler (needed by SciPy)
+sudo apt install -y build-essential python3-dev python3-pip gfortran
 
 # 3) Install BLAS/LAPACK libraries for fast linear algebra
 echo "=== Installing BLAS/LAPACK libraries..."
-sudo apt-get install -y \
-    libblas-dev \
-    liblapack-dev \
-    libatlas-base-dev
+sudo apt install -y libblas-dev liblapack-dev libatlas-base-dev
 
 # 4) Install image- and compression-related headers (for Pillow, matplotlib)
 echo "=== Installing image and compression libraries..."
-sudo apt-get install -y \
-    zlib1g-dev \                # zlib (PNG, TIFF, etc.)
-    libjpeg-dev \               # JPEG support
-    libfreetype6-dev \          # FreeType (fonts)
-    libpng-dev                  # PNG library
+sudo apt install -y zlib1g-dev libjpeg-dev libfreetype6-dev libpng-dev                  
 
 
 # 5) Upgrade pip, setuptools, wheel to latest
