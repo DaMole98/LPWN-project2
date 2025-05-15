@@ -109,6 +109,9 @@ void nbr_tbl_update(nbr_table_t* nbr_tbl, struct rp_conn* conn, const linkaddr_t
       }
   
       //copy the report into the buffer
+      //putting this line here implies that also entris in STATUS_ADD but already in this nbr_tbl
+      //will be propagatd upwards: harmless, but is useless information.
+      //This should be changed to avoid transmitting redundancies
       conn->tpl_buf.stat_addr_arr[conn->tpl_buf.size++] = net_buf.stat_addr_arr[i];
   
       const linkaddr_t* d_addr = &(net_buf.stat_addr_arr[i].addr);
