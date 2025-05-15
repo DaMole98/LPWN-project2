@@ -37,10 +37,6 @@ struct rp_callbacks {
 /* -----constants for NullRDC-----*/
 #if RDC_MODE == RDC_NULLRDC
 
-    #define HYSTERESIS_THR 0.75f // to avoid fluctuation between parents during beaconing [ETX]]
-    #define ALPHA 0.9f //metric inertia
-
-
     #define TREE_BEACON_FORWARD_DELAY ((clock_time_t)(((float)CLOCK_SECOND / 10.0f) + ((float)(random_rand() % (CLOCK_SECOND / 8)))))
 
     #define SUBTREE_REPORT_BASE_DEL(hops) (((clock_time_t)(((float)(5*CLOCK_SECOND)) / (float)(hops))) + (float)(4*(random_rand() % CLOCK_SECOND/10)))
@@ -52,10 +48,6 @@ struct rp_callbacks {
 
 /* -----constants for ContikiMAC-----*/
 #elif RDC_MODE == RDC_CONTIKIMAC
-
-    #define HYSTERESIS_THR 1.0f //higher to make the protocol more stable.
-    #define ALPHA 0.9f //metric inertia
-
 
     #define TREE_BEACON_FORWARD_DELAY ((clock_time_t)(((float)CLOCK_SECOND / 8.0f) + ((float)(8*(random_rand() % CHANNEL_CHECK_INTERVAL_TICKS)))))
 

@@ -1,0 +1,651 @@
+pip3 install scipy matplotlib pandas
+Collecting scipy
+  Using cached https://files.pythonhosted.org/packages/61/67/1a654b96309c991762ee9bc39c363fc618076b155fe52d295211cf2536c7/scipy-1.7.3.tar.gz
+  Installing build dependencies ... done
+Collecting matplotlib
+  Using cached https://files.pythonhosted.org/packages/ad/62/7b662284352867a86acfb636761ba351723fc3a235efd8397578d903413d/matplotlib-3.5.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+Collecting pandas
+  Downloading https://files.pythonhosted.org/packages/99/f0/f99700ef327e51d291efdf4a6de29e685c4d198cbf8531541fc84d169e0e/pandas-1.3.5.tar.gz (4.7MB)
+    100% |████████████████████████████████| 4.7MB 193kB/s 
+  Installing build dependencies ... done
+Requirement already satisfied: numpy<1.23.0,>=1.16.5 in /home/user/.local/lib/python3.7/site-packages (from scipy) (1.21.6)
+Collecting pyparsing>=2.2.1 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/e5/0c/0e3c05b1c87bb6a1c76d281b0f35e78d2d80ac91b5f8f524cebf77f51049/pyparsing-3.1.4-py3-none-any.whl
+Collecting python-dateutil>=2.7 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl
+Collecting packaging>=20.0 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl
+Collecting kiwisolver>=1.0.1 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/f9/77/e3046bf19720b22e3e0b7c12e28f6f2c0c18a213fb91a56cea640862270f/kiwisolver-1.4.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+Collecting pillow>=6.2.0 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/00/d5/4903f310765e0ff2b8e91ffe55031ac6af77d982f0156061e20a4d1a8b2d/Pillow-9.5.0.tar.gz
+Collecting cycler>=0.10 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl
+Collecting fonttools>=4.22.0 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/e3/d9/e9bae85e84737e76ebbcbea13607236da0c0699baed0ae4f1151b728a608/fonttools-4.38.0-py3-none-any.whl
+Collecting pytz>=2017.3 (from pandas)
+  Downloading https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl (509kB)
+    100% |████████████████████████████████| 512kB 1.4MB/s 
+Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.7->matplotlib) (1.12.0)
+Collecting typing-extensions; python_version < "3.8" (from kiwisolver>=1.0.1->matplotlib)
+  Using cached https://files.pythonhosted.org/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl
+Building wheels for collected packages: scipy, pandas, pillow
+  Running setup.py bdist_wheel for scipy ... error
+  Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-8n8l6mk9/scipy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/pip-wheel-rykh7gmy --python-tag cp37:
+  Running from SciPy source directory.
+  Cythonizing sources
+  Running scipy/stats/_generate_pyx.py
+  Running scipy/linalg/_generate_pyx.py
+  Running scipy/special/_generate_pyx.py
+  Processing scipy/stats/_qmc_cy.pyx
+  Processing scipy/stats/_stats.pyx
+  Processing scipy/stats/biasedurn.pyx
+  Processing scipy/stats/_sobol.pyx
+  Processing scipy/stats/_boost/src/nbinom_ufunc.pyx
+  Processing scipy/stats/_boost/src/beta_ufunc.pyx
+  Processing scipy/stats/_boost/src/binom_ufunc.pyx
+  Processing scipy/io/matlab/streams.pyx
+  Processing scipy/io/matlab/mio_utils.pyx
+  Processing scipy/io/matlab/mio5_utils.pyx
+  Processing scipy/fftpack/convolve.pyx
+  Processing scipy/spatial/ckdtree.pyx
+  Processing scipy/spatial/_voronoi.pyx
+  Processing scipy/spatial/qhull.pyx
+  Processing scipy/spatial/_hausdorff.pyx
+  Processing scipy/spatial/transform/rotation.pyx
+  Processing scipy/interpolate/interpnd.pyx
+  Processing scipy/interpolate/_bspl.pyx
+  Processing scipy/interpolate/_ppoly.pyx
+  Processing scipy/_lib/_test_deprecation_call.pyx
+  Processing scipy/_lib/_ccallback_c.pyx
+  Processing scipy/_lib/_test_deprecation_def.pyx
+  Processing scipy/_lib/messagestream.pyx
+  Processing scipy/linalg/cython_blas.pyx
+  Processing scipy/linalg/_decomp_update.pyx.in
+  Processing scipy/linalg/_matfuncs_sqrtm_triu.pyx
+  Processing scipy/linalg/_solve_toeplitz.pyx
+  Processing scipy/linalg/cython_lapack.pyx
+  Processing scipy/signal/_max_len_seq_inner.pyx
+  Processing scipy/signal/_spectral.pyx
+  Processing scipy/signal/_upfirdn_apply.pyx
+  Processing scipy/signal/_sosfilt.pyx
+  Processing scipy/signal/_peak_finding_utils.pyx
+  Processing scipy/special/_ufuncs_cxx.pyx
+  Processing scipy/special/_comb.pyx
+  Processing scipy/special/cython_special.pyx
+  Processing scipy/special/_ellip_harm_2.pyx
+  Processing scipy/special/_ufuncs.pyx
+  warning: _cython_special_custom.pxi:9:8: Unreachable code
+  warning: _cython_special_custom.pxi:13:4: Unreachable code
+  warning: _cython_special_custom.pxi:21:8: Unreachable code
+  warning: _cython_special_custom.pxi:25:4: Unreachable code
+  warning: _cython_special_custom.pxi:33:8: Unreachable code
+  warning: _cython_special_custom.pxi:37:4: Unreachable code
+  warning: _cython_special_custom.pxi:45:8: Unreachable code
+  warning: _cython_special_custom.pxi:49:4: Unreachable code
+  Processing scipy/special/_test_round.pyx
+  Processing scipy/ndimage/src/_cytest.pyx
+  Processing scipy/ndimage/src/_ni_label.pyx
+  Processing scipy/sparse/_csparsetools.pyx.in
+  Processing scipy/sparse/csgraph/_traversal.pyx
+  Processing scipy/sparse/csgraph/_reordering.pyx
+  Processing scipy/sparse/csgraph/_min_spanning_tree.pyx
+  Processing scipy/sparse/csgraph/_tools.pyx
+  Processing scipy/sparse/csgraph/_flow.pyx
+  Processing scipy/sparse/csgraph/_shortest_path.pyx
+  Processing scipy/sparse/csgraph/_matching.pyx
+  Processing scipy/cluster/_optimal_leaf_ordering.pyx
+  Processing scipy/cluster/_hierarchy.pyx
+  Processing scipy/cluster/_vq.pyx
+  Processing scipy/optimize/_bglu_dense.pyx
+  Processing scipy/optimize/_group_columns.pyx
+  Processing scipy/optimize/cython_optimize/_zeros.pyx.in
+  Processing scipy/optimize/_lsq/givens_elimination.pyx
+  Processing scipy/optimize/_trlib/_trlib.pyx
+  Processing scipy/optimize/_highs/cython/src/_highs_constants.pyx
+  Processing scipy/optimize/_highs/cython/src/_highs_wrapper.pyx
+  lapack_opt_info:
+  lapack_mkl_info:
+  customize UnixCCompiler
+    libraries mkl_rt not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+    NOT AVAILABLE
+  
+  openblas_lapack_info:
+  customize UnixCCompiler
+  customize UnixCCompiler
+    libraries openblas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+    NOT AVAILABLE
+  
+  openblas_clapack_info:
+  customize UnixCCompiler
+  customize UnixCCompiler
+    libraries openblas,lapack not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+    NOT AVAILABLE
+  
+  atlas_3_10_threads_info:
+  Setting PTATLAS=ATLAS
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries tatlas,tatlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries tatlas,tatlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+  customize UnixCCompiler
+    libraries tatlas,tatlas not found in /usr/lib/x86_64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_3_10_threads_info'>
+    NOT AVAILABLE
+  
+  atlas_3_10_info:
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries satlas,satlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries satlas,satlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+  customize UnixCCompiler
+    libraries satlas,satlas not found in /usr/lib/x86_64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_3_10_info'>
+    NOT AVAILABLE
+  
+  atlas_threads_info:
+  Setting PTATLAS=ATLAS
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries ptf77blas,ptcblas,atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries ptf77blas,ptcblas,atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+  customize UnixCCompiler
+    libraries ptf77blas,ptcblas,atlas not found in /usr/lib/x86_64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_threads_info'>
+    NOT AVAILABLE
+  
+  atlas_info:
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries f77blas,cblas,atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries f77blas,cblas,atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+  customize UnixCCompiler
+    libraries f77blas,cblas,atlas not found in /usr/lib/x86_64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_info'>
+    NOT AVAILABLE
+  
+  accelerate_info:
+    NOT AVAILABLE
+  
+  /tmp/pip-build-env-wk7a7gk1/lib/python3.7/site-packages/numpy/distutils/system_info.py:639: UserWarning:
+      Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+      Directories to search for the libraries can be specified in the
+      numpy/distutils/site.cfg file (section [atlas]) or by setting
+      the ATLAS environment variable.
+    self.calc_info()
+  lapack_info:
+  customize UnixCCompiler
+    libraries lapack not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+    NOT AVAILABLE
+  
+  /tmp/pip-build-env-wk7a7gk1/lib/python3.7/site-packages/numpy/distutils/system_info.py:639: UserWarning:
+      Lapack (http://www.netlib.org/lapack/) libraries not found.
+      Directories to search for the libraries can be specified in the
+      numpy/distutils/site.cfg file (section [lapack]) or by setting
+      the LAPACK environment variable.
+    self.calc_info()
+  lapack_src_info:
+    NOT AVAILABLE
+  
+  /tmp/pip-build-env-wk7a7gk1/lib/python3.7/site-packages/numpy/distutils/system_info.py:639: UserWarning:
+      Lapack (http://www.netlib.org/lapack/) sources not found.
+      Directories to search for the sources can be specified in the
+      numpy/distutils/site.cfg file (section [lapack_src]) or by setting
+      the LAPACK_SRC environment variable.
+    self.calc_info()
+    NOT AVAILABLE
+  
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    File "/tmp/pip-install-8n8l6mk9/scipy/setup.py", line 631, in <module>
+      setup_package()
+    File "/tmp/pip-install-8n8l6mk9/scipy/setup.py", line 627, in setup_package
+      setup(**metadata)
+    File "/tmp/pip-build-env-wk7a7gk1/lib/python3.7/site-packages/numpy/distutils/core.py", line 137, in setup
+      config = configuration()
+    File "/tmp/pip-install-8n8l6mk9/scipy/setup.py", line 529, in configuration
+      raise NotFoundError(msg)
+  numpy.distutils.system_info.NotFoundError: No BLAS/LAPACK libraries found.
+  To build Scipy from sources, BLAS & LAPACK libraries need to be installed.
+  See site.cfg.example in the Scipy source directory and
+  https://docs.scipy.org/doc/scipy/reference/building/index.html for details.
+  
+  ----------------------------------------
+  Failed building wheel for scipy
+  Running setup.py clean for scipy
+  Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-8n8l6mk9/scipy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" clean --all:
+  
+  `setup.py clean` is not supported, use one of the following instead:
+  
+    - `git clean -xdf` (cleans all files)
+    - `git clean -Xdf` (cleans all versioned files, doesn't touch
+                        files that aren't checked into the git repo)
+  
+  Add `--force` to your command to use it anyway if you must (unsupported).
+  
+  
+  ----------------------------------------
+  Failed cleaning build dir for scipy
+  Running setup.py bdist_wheel for pandas ... done
+  Stored in directory: /home/user/.cache/pip/wheels/5c/f4/45/389dc711f0c5ff9adeb5245397ab18bf75182e8cff9fbfa916
+  Running setup.py bdist_wheel for pillow ... error
+  Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-8n8l6mk9/pillow/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/pip-wheel-ot2hbbzc --python-tag cp37:
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib.linux-x86_64-3.7
+  creating build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/FliImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PcxImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/_deprecate.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/FitsImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImagePath.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageEnhance.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/BmpImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PcdImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PyAccess.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/__init__.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/JpegImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageDraw2.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageGrab.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/GbrImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ExifTags.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImagePalette.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/XVThumbImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageTransform.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/_version.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageDraw.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/MicImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/FpxImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/GimpGradientFile.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PalmImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/CurImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageFont.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/FontFile.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/JpegPresets.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageWin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/GimpPaletteFile.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageMode.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/McIdasImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/QoiImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/WmfImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/BdfFontFile.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/WalImageFile.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PdfImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/BlpImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImtImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/_tkinter_finder.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/IptcImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/MpoImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/MpegImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PaletteFile.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PixarImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/_util.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/GdImageFile.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PSDraw.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/SunImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/TiffImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/SgiImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/DcxImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageTk.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PcfFontFile.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/EpsImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageShow.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageFile.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/BufrStubImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/TiffTags.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/Image.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageMath.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/IcnsImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/Hdf5StubImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/TarIO.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageOps.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/FtexImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PdfParser.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageFilter.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageMorph.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/DdsImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/GribStubImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageQt.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/XpmImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/Jpeg2KImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/XbmImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/__main__.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/FitsStubImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PngImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/features.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageStat.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageCms.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/MspImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/TgaImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageSequence.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/GifImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/WebPImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageColor.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/SpiderImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PpmImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/PsdImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/IcoImagePlugin.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ContainerIO.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/ImageChops.py -> build/lib.linux-x86_64-3.7/PIL
+  copying src/PIL/_binary.py -> build/lib.linux-x86_64-3.7/PIL
+  running egg_info
+  writing src/Pillow.egg-info/PKG-INFO
+  writing dependency_links to src/Pillow.egg-info/dependency_links.txt
+  writing requirements to src/Pillow.egg-info/requires.txt
+  writing top-level names to src/Pillow.egg-info/top_level.txt
+  reading manifest file 'src/Pillow.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching '*.c'
+  warning: no files found matching '*.h'
+  warning: no files found matching '*.sh'
+  warning: no previously-included files found matching '.appveyor.yml'
+  warning: no previously-included files found matching '.clang-format'
+  warning: no previously-included files found matching '.coveragerc'
+  warning: no previously-included files found matching '.editorconfig'
+  warning: no previously-included files found matching '.readthedocs.yml'
+  warning: no previously-included files found matching 'codecov.yml'
+  warning: no previously-included files found matching 'renovate.json'
+  warning: no previously-included files matching '.git*' found anywhere in distribution
+  warning: no previously-included files matching '*.pyc' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  no previously-included directories found matching '.ci'
+  writing manifest file 'src/Pillow.egg-info/SOURCES.txt'
+  running build_ext
+  
+  
+  The headers or library files could not be found for zlib,
+  a required dependency when compiling Pillow from source.
+  
+  Please see the install instructions at:
+     https://pillow.readthedocs.io/en/latest/installation.html
+  
+  Traceback (most recent call last):
+    File "/tmp/pip-install-8n8l6mk9/pillow/setup.py", line 997, in <module>
+      zip_safe=not (debug_build() or PLATFORM_MINGW),
+    File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 145, in setup
+      return distutils.core.setup(**attrs)
+    File "/usr/lib/python3.7/distutils/core.py", line 148, in setup
+      dist.run_commands()
+    File "/usr/lib/python3.7/distutils/dist.py", line 966, in run_commands
+      self.run_command(cmd)
+    File "/usr/lib/python3.7/distutils/dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "/usr/lib/python3/dist-packages/wheel/bdist_wheel.py", line 188, in run
+      self.run_command('build')
+    File "/usr/lib/python3.7/distutils/cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "/usr/lib/python3.7/distutils/dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "/usr/lib/python3.7/distutils/command/build.py", line 135, in run
+      self.run_command(cmd_name)
+    File "/usr/lib/python3.7/distutils/cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "/usr/lib/python3.7/distutils/dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "/usr/lib/python3/dist-packages/setuptools/command/build_ext.py", line 78, in run
+      _build_ext.run(self)
+    File "/usr/lib/python3.7/distutils/command/build_ext.py", line 340, in run
+      self.build_extensions()
+    File "/tmp/pip-install-8n8l6mk9/pillow/setup.py", line 809, in build_extensions
+      raise RequiredDependencyException(f)
+  __main__.RequiredDependencyException: zlib
+  
+  During handling of the above exception, another exception occurred:
+  
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    File "/tmp/pip-install-8n8l6mk9/pillow/setup.py", line 1010, in <module>
+      raise RequiredDependencyException(msg)
+  __main__.RequiredDependencyException:
+  
+  The headers or library files could not be found for zlib,
+  a required dependency when compiling Pillow from source.
+  
+  Please see the install instructions at:
+     https://pillow.readthedocs.io/en/latest/installation.html
+  
+  
+  
+  ----------------------------------------
+  Failed building wheel for pillow
+  Running setup.py clean for pillow
+Successfully built pandas
+Failed to build scipy pillow
+Installing collected packages: scipy, pyparsing, python-dateutil, packaging, typing-extensions, kiwisolver, pillow, cycler, fonttools, matplotlib, pytz, pandas
+  Running setup.py install for scipy ... error
+    Complete output from command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-8n8l6mk9/scipy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-record-ntp96931/install-record.txt --single-version-externally-managed --compile --user --prefix=:
+    
+    Note: for reliable uninstall behaviour and dependency installation
+    and uninstallation, please use pip instead of using
+    `setup.py install`:
+    
+      - `pip install .`       (from a git repo or downloaded source
+                               release)
+      - `pip install scipy`   (last SciPy release on PyPI)
+    
+    
+    Running from SciPy source directory.
+    Cythonizing sources
+    scipy/linalg/_generate_pyx.py: all files up-to-date
+    scipy/special/_generate_pyx.py: all files up-to-date
+    Running scipy/stats/_generate_pyx.py
+    Running scipy/linalg/_generate_pyx.py
+    Running scipy/special/_generate_pyx.py
+    scipy/stats/_qmc_cy.pyx has not changed
+    scipy/stats/_stats.pyx has not changed
+    scipy/stats/_sobol.pyx has not changed
+    scipy/stats/biasedurn.pyx has not changed
+    scipy/stats/_boost/src/beta_ufunc.pyx has not changed
+    scipy/stats/_boost/src/binom_ufunc.pyx has not changed
+    scipy/stats/_boost/src/nbinom_ufunc.pyx has not changed
+    scipy/io/matlab/mio_utils.pyx has not changed
+    scipy/io/matlab/streams.pyx has not changed
+    scipy/io/matlab/mio5_utils.pyx has not changed
+    scipy/fftpack/convolve.pyx has not changed
+    scipy/spatial/ckdtree.pyx has not changed
+    scipy/spatial/_voronoi.pyx has not changed
+    scipy/spatial/_hausdorff.pyx has not changed
+    scipy/spatial/transform/rotation.pyx has not changed
+    scipy/spatial/qhull.pyx has not changed
+    scipy/interpolate/interpnd.pyx has not changed
+    scipy/interpolate/_ppoly.pyx has not changed
+    scipy/interpolate/_bspl.pyx has not changed
+    scipy/_lib/_ccallback_c.pyx has not changed
+    scipy/_lib/_test_deprecation_call.pyx has not changed
+    scipy/_lib/messagestream.pyx has not changed
+    scipy/_lib/_test_deprecation_def.pyx has not changed
+    scipy/linalg/cython_blas.pyx has not changed
+    scipy/linalg/_decomp_update.pyx.in has not changed
+    scipy/linalg/_matfuncs_sqrtm_triu.pyx has not changed
+    scipy/linalg/_solve_toeplitz.pyx has not changed
+    scipy/linalg/cython_lapack.pyx has not changed
+    scipy/signal/_max_len_seq_inner.pyx has not changed
+    scipy/signal/_upfirdn_apply.pyx has not changed
+    scipy/signal/_sosfilt.pyx has not changed
+    scipy/signal/_spectral.pyx has not changed
+    scipy/signal/_peak_finding_utils.pyx has not changed
+    scipy/special/_ufuncs_cxx.pyx has not changed
+    scipy/special/cython_special.pyx has not changed
+    scipy/special/_comb.pyx has not changed
+    scipy/special/_ufuncs.pyx has not changed
+    scipy/special/_ellip_harm_2.pyx has not changed
+    scipy/ndimage/src/_cytest.pyx has not changed
+    scipy/ndimage/src/_ni_label.pyx has not changed
+    scipy/sparse/_csparsetools.pyx.in has not changed
+    scipy/special/_test_round.pyx has not changed
+    scipy/sparse/csgraph/_reordering.pyx has not changed
+    scipy/sparse/csgraph/_traversal.pyx has not changed
+    scipy/sparse/csgraph/_min_spanning_tree.pyx has not changed
+    scipy/sparse/csgraph/_tools.pyx has not changed
+    scipy/sparse/csgraph/_flow.pyx has not changed
+    scipy/sparse/csgraph/_shortest_path.pyx has not changed
+    scipy/sparse/csgraph/_matching.pyx has not changed
+    scipy/cluster/_optimal_leaf_ordering.pyx has not changed
+    scipy/cluster/_hierarchy.pyx has not changed
+    scipy/cluster/_vq.pyx has not changed
+    scipy/optimize/_group_columns.pyx has not changed
+    scipy/optimize/_bglu_dense.pyx has not changed
+    scipy/optimize/cython_optimize/_zeros.pyx.in has not changed
+    scipy/optimize/_trlib/_trlib.pyx has not changed
+    scipy/optimize/_lsq/givens_elimination.pyx has not changed
+    scipy/optimize/_highs/cython/src/_highs_wrapper.pyx has not changed
+    scipy/optimize/_highs/cython/src/_highs_constants.pyx has not changed
+    lapack_opt_info:
+    lapack_mkl_info:
+    customize UnixCCompiler
+      libraries mkl_rt not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    openblas_lapack_info:
+    customize UnixCCompiler
+    customize UnixCCompiler
+      libraries openblas not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    openblas_clapack_info:
+    customize UnixCCompiler
+    customize UnixCCompiler
+      libraries openblas,lapack not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    atlas_3_10_threads_info:
+    Setting PTATLAS=ATLAS
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/local/lib
+    customize UnixCCompiler
+      libraries tatlas,tatlas not found in /usr/local/lib
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/lib
+    customize UnixCCompiler
+      libraries tatlas,tatlas not found in /usr/lib
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+    customize UnixCCompiler
+      libraries tatlas,tatlas not found in /usr/lib/x86_64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_3_10_threads_info'>
+      NOT AVAILABLE
+    
+    atlas_3_10_info:
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/local/lib
+    customize UnixCCompiler
+      libraries satlas,satlas not found in /usr/local/lib
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/lib
+    customize UnixCCompiler
+      libraries satlas,satlas not found in /usr/lib
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+    customize UnixCCompiler
+      libraries satlas,satlas not found in /usr/lib/x86_64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_3_10_info'>
+      NOT AVAILABLE
+    
+    atlas_threads_info:
+    Setting PTATLAS=ATLAS
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/local/lib
+    customize UnixCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in /usr/local/lib
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/lib
+    customize UnixCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in /usr/lib
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+    customize UnixCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in /usr/lib/x86_64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_threads_info'>
+      NOT AVAILABLE
+    
+    atlas_info:
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/local/lib
+    customize UnixCCompiler
+      libraries f77blas,cblas,atlas not found in /usr/local/lib
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/lib
+    customize UnixCCompiler
+      libraries f77blas,cblas,atlas not found in /usr/lib
+    customize UnixCCompiler
+      libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+    customize UnixCCompiler
+      libraries f77blas,cblas,atlas not found in /usr/lib/x86_64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_info'>
+      NOT AVAILABLE
+    
+    accelerate_info:
+      NOT AVAILABLE
+    
+    /tmp/pip-build-env-wk7a7gk1/lib/python3.7/site-packages/numpy/distutils/system_info.py:639: UserWarning:
+        Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [atlas]) or by setting
+        the ATLAS environment variable.
+      self.calc_info()
+    lapack_info:
+    customize UnixCCompiler
+      libraries lapack not found in ['/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    /tmp/pip-build-env-wk7a7gk1/lib/python3.7/site-packages/numpy/distutils/system_info.py:639: UserWarning:
+        Lapack (http://www.netlib.org/lapack/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [lapack]) or by setting
+        the LAPACK environment variable.
+      self.calc_info()
+    lapack_src_info:
+      NOT AVAILABLE
+    
+    /tmp/pip-build-env-wk7a7gk1/lib/python3.7/site-packages/numpy/distutils/system_info.py:639: UserWarning:
+        Lapack (http://www.netlib.org/lapack/) sources not found.
+        Directories to search for the sources can be specified in the
+        numpy/distutils/site.cfg file (section [lapack_src]) or by setting
+        the LAPACK_SRC environment variable.
+      self.calc_info()
+      NOT AVAILABLE
+    
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-8n8l6mk9/scipy/setup.py", line 631, in <module>
+        setup_package()
+      File "/tmp/pip-install-8n8l6mk9/scipy/setup.py", line 627, in setup_package
+        setup(**metadata)
+      File "/tmp/pip-build-env-wk7a7gk1/lib/python3.7/site-packages/numpy/distutils/core.py", line 137, in setup
+        config = configuration()
+      File "/tmp/pip-install-8n8l6mk9/scipy/setup.py", line 529, in configuration
+        raise NotFoundError(msg)
+    numpy.distutils.system_info.NotFoundError: No BLAS/LAPACK libraries found.
+    To build Scipy from sources, BLAS & LAPACK libraries need to be installed.
+    See site.cfg.example in the Scipy source directory and
+    https://docs.scipy.org/doc/scipy/reference/building/index.html for details.
+    
+    ----------------------------------------
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-8n8l6mk9/scipy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-record-ntp96931/install-record.txt --single-version-externally-managed --compile --user --prefix=" failed with error code 1 in /tmp/pip-install-8n8l6mk9/scipy/

@@ -71,6 +71,8 @@ Comment/uncomment these sections accordingly.
 
 ## Python Scripts (in scripts/)
 
+Some script are written in Python 3. Run `get-python3.sh` to install python3, pip3 and the packages needed.
+
 * `analysis.py`: Parses logs (`recv.csv` and `sent.csv`) to compute Packet Delivery Rate (PDR), latency, and duty cycle.
 
 ```bash
