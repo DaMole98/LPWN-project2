@@ -33,7 +33,13 @@ typedef struct{
 
 void nbr_tbl_lookup(nbr_table_t* nbr_tbl, linkaddr_t* nexthop, const linkaddr_t* dst_addr, const linkaddr_t* parent);
 
-inline void nbr_tbl_refresh(nbr_table_t* nbr_tbl,const linkaddr_t* addr);
+/*refresh entry in the neighbor table*/
+static inline void nbr_tbl_refresh(nbr_table_t* nbr_tbl, const linkaddr_t* addr){
+  entry_t *entry = (entry_t *) nbr_table_get_from_lladdr(nbr_tbl, addr);
+  if(entry != NULL) {
+    entry->age = clock_time();
+  }
+}
 
 void nbr_tbl_update(nbr_table_t* nbr_tbl,struct rp_conn* conn, const linkaddr_t* tx_addr, tpl_vec_t net_buf);
 

@@ -36,6 +36,7 @@ Compile using the provided Makefile:
 ```bash
 make TARGET=sky
 ```
+The contiki-uwb module's Makefile.include may have problems with the project structure: in that case copy-paste the content of `Contiki-UWB-Makefile-include.txt` into the file `~/contiki-uwb/contiki/Makefile.include`.
 
 ### Simulation (Cooja)
 

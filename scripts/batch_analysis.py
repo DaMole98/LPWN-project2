@@ -1,5 +1,5 @@
 """
-Script to analyze the simulation report file "BATCH-simulation-report-test_nogui_dc.txt".
+Script to analyze the simulation report file.
 
 This script extracts for each simulation run:
   - Overall Packet Delivery Ratio (PDR, in %)
@@ -128,7 +128,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Analyze a simulation report file and produce statistics & boxplots for PDR, Latency, and Duty Cycle.")
     parser.add_argument("file", type=str,
-                        help="Path to the simulation report file (e.g., BATCH-simulation-report-test_nogui_dc.txt)")
+                        help="Path to the simulation report file")
     args = parser.parse_args()
 
     file_path = args.file
