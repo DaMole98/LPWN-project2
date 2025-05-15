@@ -68,6 +68,12 @@ Edit the `project-conf.h` to switch between NullRDC and ContikiMAC:
 #define RDC_MODE RDC_CONTIKIMAC
 ```
 
+Activate this flag to print (more) debug and monitoring logs:
+
+```c
+#define USR_DEBUG 0
+```
+
 Comment/uncomment these sections accordingly.
 
 ## Python Scripts (in scripts/)

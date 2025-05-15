@@ -1,7 +1,7 @@
 # For TMote Sky (emulated in Cooja) use the following target
-TARGET ?= sky
-#TARGET ?= zoul
-#BOARD ?= firefly
+#TARGET ?= sky
+TARGET ?= zoul
+BOARD ?= firefly
 #LDFLAGS += -specs=nosys.specs
 
 DEFINES=PROJECT_CONF_H=\"project-conf.h\"

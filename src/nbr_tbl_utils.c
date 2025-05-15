@@ -102,7 +102,7 @@ void nbr_tbl_update(nbr_table_t* nbr_tbl, struct rp_conn* conn, const linkaddr_t
       if(conn->tpl_buf.size >= NBR_TABLE_CONF_MAX_NEIGHBORS) {
         #if USR_DEBUG
           uint8_t skip_count = net_buf.size - i;
-          printf("topology-report: buffer overflow, skipping %u entries starting from entry %02x:%02x\n",
+          printf("nbr_tbl: buffer overflow, skipping %u entries starting from entry %02x:%02x\n",
                        skip_count, net_buf.stat_addr_arr[i].addr.u8[0], net_buf.stat_addr_arr[i].addr.u8[1]);
         #endif
           break;
@@ -125,7 +125,7 @@ void nbr_tbl_update(nbr_table_t* nbr_tbl, struct rp_conn* conn, const linkaddr_t
             d_entry->nexthop = *tx_addr; 
           }
           #if USR_DEBUG == 1
-          printf("topology-report: new descendant %02x:%02x, from child %02x:%02x\n", 
+          printf("nbr_tbl: new descendant %02x:%02x, from child %02x:%02x\n", 
             d_addr->u8[0], d_addr->u8[1], tx_addr->u8[0], tx_addr->u8[1]);
           #endif
       }
@@ -135,7 +135,7 @@ void nbr_tbl_update(nbr_table_t* nbr_tbl, struct rp_conn* conn, const linkaddr_t
           if(d_entry != NULL){//if the entry exist, remove it
             nbr_table_remove(nbr_tbl, d_entry);
             #if USR_DEBUG == 1
-            printf("topology-report: removing descendant %02x:%02x, from subtree rooted in child %02x:%02x\n", 
+            printf("nbr_tbl: removing descendant %02x:%02x, from subtree rooted in child %02x:%02x\n", 
               d_addr->u8[0], d_addr->u8[1], tx_addr->u8[0], tx_addr->u8[1]);
             #endif
           }

@@ -201,7 +201,7 @@ static void beacon_timer_cb(void* ptr){
     float m = metric_q124_to_float(conn->metric);
     int ip = (int)m;
     int fp = (int)((m - ip) * 100);
-    printf("rp-tree-build: sending beacon: seqn %d metric %d.%02d\n", conn->seqn, ip, fp);
+    printf("rp: sending beacon: seqn %d metric %d.%02d\n", conn->seqn, ip, fp);
     #endif
 }
 
@@ -213,7 +213,7 @@ static void bc_recv(struct broadcast_conn* b_conn, const linkaddr_t *tx_addr) {
 
   if(packetbuf_datalen() != sizeof(struct bc_msg)) {
       #if USR_DEBUG == 1
-      printf("rp_conn: broadcast message has wrong size\n");
+      printf("rp: broadcast message has wrong size\n");
       #endif
       return;
     }
@@ -268,7 +268,7 @@ static void bc_recv(struct broadcast_conn* b_conn, const linkaddr_t *tx_addr) {
         float m = metric_q124_to_float(conn->metric);
         int ip = (int)m;
         int fp = (int)((m - ip) * 100);
-        printf("rp-tree-build: updating parent from %02x:%02x to %02x:%02x, new metric %d.%02d, new hops %u (received beacon seqn %u)\n",
+        printf("rp: updating parent from %02x:%02x to %02x:%02x, new metric %d.%02d, new hops %u (received beacon seqn %u)\n",
           conn->parent.u8[0], conn->parent.u8[1],
           tx_addr->u8[0], tx_addr->u8[1],
           ip, fp, msg.hops + 1, msg.seqn);
@@ -288,7 +288,7 @@ static void bc_recv(struct broadcast_conn* b_conn, const linkaddr_t *tx_addr) {
             float m = metric_q124_to_float(conn->metric);
             int ip = (int)m;
             int fp = (int)((m - ip) * 100);
-            printf("rp-tree-build: new child %02x:%02x, my metric %d.%02d, my seqn %d\n",
+            printf("rp: new child %02x:%02x, my metric %d.%02d, my seqn %d\n",
                    tx_addr->u8[0], tx_addr->u8[1], ip, fp, conn->seqn);
             #endif
               
@@ -315,7 +315,7 @@ static void bc_recv(struct broadcast_conn* b_conn, const linkaddr_t *tx_addr) {
             float m = metric_q124_to_float(conn->metric);
             int ip = (int)m;
             int fp = (int)((m - ip) * 100);
-            printf("rp-tree-build: new neighbor %02x:%02x, my metric %d.%02d, my seqn %d\n",
+            printf("rp: new neighbor %02x:%02x, my metric %d.%02d, my seqn %d\n",
                    tx_addr->u8[0], tx_addr->u8[1], ip, fp, conn->seqn);
             #endif
         }
@@ -350,7 +350,7 @@ void subtree_report_cb(void* ptr){
     }
     else{
         #if USR_DEBUG == 1
-        printf("ERROR: Failed to allocate unicast header!\n");
+        printf("rp: ERROR, Failed to allocate unicast header!\n");
         #endif
         return;
     }
@@ -443,7 +443,7 @@ void change_parent(void* ptr){ //change parent and mark as expired the old paren
         metric_q124_t m = conn->metric;
         int ip = m >> 8;
         int fp = ((m & 0xFF) * 100 + 128) >> 8;
-        printf("topology_report: parent change from %02x:%02x to %02x:%02x, my new metric %d.%02d, my seqn %d\n", 
+        printf("rp: parent change from %02x:%02x to %02x:%02x, my new metric %d.%02d, my seqn %d\n", 
            old_par.u8[0], old_par.u8[1], new_par_e->nexthop.u8[0], new_par_e->nexthop.u8[1], ip, fp, conn->seqn);
         #endif
         //Inform the new parent of the subtree
@@ -453,7 +453,7 @@ void change_parent(void* ptr){ //change parent and mark as expired the old paren
     else{//if there are no neighbors available, disconnect from the network
         linkaddr_copy(&conn->parent, &linkaddr_null);
         #if USR_DEBUG == 1
-        printf("topology_report: Node %02x:%02x did not find a parent, disconnecting from the network\n", linkaddr_node_addr.u8[0], linkaddr_node_addr.u8[1]); 
+        printf("rp: Node %02x:%02x did not find a parent, disconnecting from the network\n", linkaddr_node_addr.u8[0], linkaddr_node_addr.u8[1]); 
         #endif
         return;
   }
@@ -470,7 +470,7 @@ static void uc_recv(struct unicast_conn* u_conn, const linkaddr_t* tx_addr){
     // Check if the received unicast message looks legitimate
     if (packetbuf_datalen() < sizeof(struct uc_hdr)) {
       #if USR_DEBUG == 1
-      printf("ERROR: Too short unicast packet %d. ", packetbuf_datalen());
+      printf("rp: ERROR, too short unicast packet %d. ", packetbuf_datalen());
       printf("Received packet of length %d from %02x:%02x\n", packetbuf_datalen(), tx_addr->u8[0], tx_addr->u8[1]);
       const uint8_t *raw_data = (uint8_t *)packetbuf_dataptr();
       int i;
@@ -508,14 +508,14 @@ static void uc_recv(struct unicast_conn* u_conn, const linkaddr_t* tx_addr){
         case UC_TYPE_REPORT:
             #if USR_DEBUG == 1
             print_topology_report(tx_addr);
-            printf("topology-report: report from child %02x:%02x\n", 
+            printf("rp: report from child %02x:%02x\n", 
               tx_addr->u8[0], tx_addr->u8[1]);
             #endif
 
             /*Extract report forom the packet buffer*/
             if(packetbuf_datalen() < sizeof(uint8_t)){
               #if USR_DEBUG == 1
-              printf("topology-report: ERROR, packet too short (%d bytes)\n", packetbuf_datalen());
+              printf("rp: ERROR, packet too short (%d bytes)\n", packetbuf_datalen());
               #endif
               return;
             }
@@ -528,7 +528,7 @@ static void uc_recv(struct unicast_conn* u_conn, const linkaddr_t* tx_addr){
              uint8_t exp_b = net_buf.size * sizeof(stat_addr_t);
              if((packetbuf_datalen() - 1) < exp_b) {
                #if USR_DEBUG == 1
-               printf("ERROR: Insufficient data: expected %u bytes for %u entries\n", exp_b, net_buf.size);
+               printf("rp: ERROR: Insufficient data: expected %u bytes for %u entries\n", exp_b, net_buf.size);
                #endif
                return;
              }
@@ -671,7 +671,7 @@ static void rp_print_routing_table(struct rp_conn *conn){
 
 static void print_topology_report(const linkaddr_t* child_addr) {
   if(packetbuf_datalen() < sizeof(uint8_t)){
-      printf("Topology Report: ERROR, packet too short (%d bytes)\n", packetbuf_datalen());
+      printf("rp: ERROR, packet too short (%d bytes)\n", packetbuf_datalen());
       return;
   }
 
