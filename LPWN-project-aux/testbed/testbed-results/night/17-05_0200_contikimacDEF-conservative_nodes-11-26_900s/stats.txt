@@ -1,0 +1,19 @@
+Namespace(dir_path='.', testbed=True)
+***** PDR *****
+Node: 11 PDR: 100.00% SENT: 21 LOST: 0
+Node: 12 PDR: 100.00% SENT: 21 LOST: 0
+Node: 13 PDR: 72.22% SENT: 18 LOST: 5
+Node: 14 PDR: 93.33% SENT: 15 LOST: 1
+Node: 15 PDR: 100.00% SENT: 20 LOST: 0
+Node: 16 PDR: 93.33% SENT: 15 LOST: 1
+Node: 17 PDR: 95.45% SENT: 22 LOST: 1
+Node: 18 PDR: 81.82% SENT: 22 LOST: 4
+Node: 19 PDR: 87.50% SENT: 16 LOST: 2
+Node: 20 PDR: 95.65% SENT: 23 LOST: 1
+Node: 21 PDR: 95.45% SENT: 22 LOST: 1
+Node: 22 PDR: 73.68% SENT: 19 LOST: 5
+Node: 23 PDR: 85.00% SENT: 20 LOST: 3
+Node: 24 PDR: 70.59% SENT: 17 LOST: 5
+Node: 25 PDR: 66.67% SENT: 15 LOST: 5
+Node: 26 PDR: 73.33% SENT: 15 LOST: 4
+Overall PDR: 87.38% (38 LOST / 301 SENT)

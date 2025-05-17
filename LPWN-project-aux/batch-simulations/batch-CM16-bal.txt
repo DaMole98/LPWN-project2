@@ -1,0 +1,3800 @@
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 1/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 1
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.43% SENT: 28 LOST: 1
+Node: 2 PDR: 92.86% SENT: 28 LOST: 2
+Node: 3 PDR: 95.45% SENT: 22 LOST: 1
+Node: 4 PDR: 100.00% SENT: 27 LOST: 0
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 96.30% SENT: 27 LOST: 1
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 95.83% SENT: 24 LOST: 1
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 97.32% (7 LOST / 261 SENT)
+
+***** Latency *****
+Average: 138.03 ms Stdev: 561.60 ms Min: 19.18 ms Max: 6887.63 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.30%
+Node: 2 Duty cycle: 3.12%
+Node: 3 Duty cycle: 3.20%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.11%
+Node: 6 Duty cycle: 3.22%
+Node: 7 Duty cycle: 3.48%
+Node: 8 Duty cycle: 3.03%
+Node: 9 Duty cycle: 3.19%
+Node: 10 Duty cycle: 3.45%
+Overall Duty Cycle: 3.21% Stdev: 0.16% Min: 3.00% Max: 3.48%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 2/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 2
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 26 LOST: 0
+Node: 2 PDR: 100.00% SENT: 24 LOST: 0
+Node: 3 PDR: 100.00% SENT: 27 LOST: 0
+Node: 4 PDR: 96.43% SENT: 28 LOST: 1
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 25 LOST: 0
+Overall PDR: 99.63% (1 LOST / 267 SENT)
+
+***** Latency *****
+Average: 91.75 ms Stdev: 77.66 ms Min: 16.79 ms Max: 554.38 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.52%
+Node: 2 Duty cycle: 3.07%
+Node: 3 Duty cycle: 3.13%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.02%
+Node: 6 Duty cycle: 3.26%
+Node: 7 Duty cycle: 3.26%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.10%
+Node: 10 Duty cycle: 3.49%
+Overall Duty Cycle: 3.18% Stdev: 0.19% Min: 2.99% Max: 3.52%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 3/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 3
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.43% SENT: 28 LOST: 1
+Node: 2 PDR: 100.00% SENT: 25 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 96.43% SENT: 28 LOST: 1
+Node: 5 PDR: 96.00% SENT: 25 LOST: 1
+Node: 6 PDR: 95.65% SENT: 23 LOST: 1
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 21 LOST: 0
+Node: 9 PDR: 100.00% SENT: 25 LOST: 0
+Node: 10 PDR: 100.00% SENT: 21 LOST: 0
+Overall PDR: 98.00% (5 LOST / 250 SENT)
+
+***** Latency *****
+Average: 119.63 ms Stdev: 613.45 ms Min: 19.21 ms Max: 9647.44 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.44%
+Node: 2 Duty cycle: 3.19%
+Node: 3 Duty cycle: 3.12%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.05%
+Node: 6 Duty cycle: 3.25%
+Node: 7 Duty cycle: 3.70%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.07%
+Node: 10 Duty cycle: 3.34%
+Overall Duty Cycle: 3.22% Stdev: 0.23% Min: 2.99% Max: 3.70%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 4/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 4
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 27 LOST: 0
+Node: 2 PDR: 100.00% SENT: 23 LOST: 0
+Node: 3 PDR: 90.00% SENT: 20 LOST: 2
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 27 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 95.24% SENT: 21 LOST: 1
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 23 LOST: 0
+Overall PDR: 98.80% (3 LOST / 250 SENT)
+
+***** Latency *****
+Average: 224.42 ms Stdev: 1373.55 ms Min: 16.77 ms Max: 20339.52 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.39%
+Node: 2 Duty cycle: 3.12%
+Node: 3 Duty cycle: 3.14%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.09%
+Node: 6 Duty cycle: 3.27%
+Node: 7 Duty cycle: 3.59%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.18%
+Node: 10 Duty cycle: 3.44%
+Overall Duty Cycle: 3.22% Stdev: 0.20% Min: 2.97% Max: 3.59%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 5/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 5
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 25 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 96.00% SENT: 25 LOST: 1
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 23 LOST: 0
+Overall PDR: 99.62% (1 LOST / 264 SENT)
+
+***** Latency *****
+Average: 90.65 ms Stdev: 67.50 ms Min: 19.25 ms Max: 527.25 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.43%
+Node: 2 Duty cycle: 3.04%
+Node: 3 Duty cycle: 3.20%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.10%
+Node: 6 Duty cycle: 3.38%
+Node: 7 Duty cycle: 3.44%
+Node: 8 Duty cycle: 3.05%
+Node: 9 Duty cycle: 3.17%
+Node: 10 Duty cycle: 3.42%
+Overall Duty Cycle: 3.22% Stdev: 0.18% Min: 2.99% Max: 3.44%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 6/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 6
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.30% SENT: 27 LOST: 1
+Node: 2 PDR: 89.29% SENT: 28 LOST: 3
+Node: 3 PDR: 81.48% SENT: 27 LOST: 5
+Node: 4 PDR: 92.86% SENT: 28 LOST: 2
+Node: 5 PDR: 85.71% SENT: 28 LOST: 4
+Node: 6 PDR: 79.17% SENT: 24 LOST: 5
+Node: 7 PDR: 92.59% SENT: 27 LOST: 2
+Node: 8 PDR: 84.00% SENT: 25 LOST: 4
+Node: 9 PDR: 78.57% SENT: 28 LOST: 6
+Node: 10 PDR: 86.96% SENT: 23 LOST: 3
+Overall PDR: 86.79% (35 LOST / 265 SENT)
+
+***** Latency *****
+Average: 90.57 ms Stdev: 91.50 ms Min: 19.21 ms Max: 951.82 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.87%
+Node: 2 Duty cycle: 3.56%
+Node: 3 Duty cycle: 3.19%
+Node: 4 Duty cycle: 3.23%
+Node: 5 Duty cycle: 3.34%
+Node: 6 Duty cycle: 4.18%
+Node: 7 Duty cycle: 4.64%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.12%
+Node: 10 Duty cycle: 3.67%
+Overall Duty Cycle: 3.58% Stdev: 0.52% Min: 2.99% Max: 4.64%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 7/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 7
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 82.14% SENT: 28 LOST: 5
+Node: 2 PDR: 92.00% SENT: 25 LOST: 2
+Node: 3 PDR: 92.59% SENT: 27 LOST: 2
+Node: 4 PDR: 89.29% SENT: 28 LOST: 3
+Node: 5 PDR: 85.71% SENT: 28 LOST: 4
+Node: 6 PDR: 82.14% SENT: 28 LOST: 5
+Node: 7 PDR: 81.48% SENT: 27 LOST: 5
+Node: 8 PDR: 82.14% SENT: 28 LOST: 5
+Node: 9 PDR: 86.96% SENT: 23 LOST: 3
+Node: 10 PDR: 81.48% SENT: 27 LOST: 5
+Overall PDR: 85.50% (39 LOST / 269 SENT)
+
+***** Latency *****
+Average: 96.44 ms Stdev: 114.48 ms Min: 19.09 ms Max: 908.91 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.56%
+Node: 2 Duty cycle: 3.22%
+Node: 3 Duty cycle: 3.61%
+Node: 4 Duty cycle: 3.04%
+Node: 5 Duty cycle: 3.23%
+Node: 6 Duty cycle: 3.32%
+Node: 7 Duty cycle: 3.95%
+Node: 8 Duty cycle: 3.21%
+Node: 9 Duty cycle: 4.79%
+Node: 10 Duty cycle: 4.42%
+Overall Duty Cycle: 3.64% Stdev: 0.58% Min: 3.04% Max: 4.79%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 8/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 8
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 27 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 83.33% SENT: 24 LOST: 4
+Node: 4 PDR: 78.57% SENT: 28 LOST: 6
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 89.29% SENT: 28 LOST: 3
+Node: 7 PDR: 100.00% SENT: 28 LOST: 0
+Node: 8 PDR: 89.29% SENT: 28 LOST: 3
+Node: 9 PDR: 85.71% SENT: 28 LOST: 4
+Node: 10 PDR: 100.00% SENT: 22 LOST: 0
+Overall PDR: 92.57% (20 LOST / 269 SENT)
+
+***** Latency *****
+Average: 96.22 ms Stdev: 246.64 ms Min: 16.78 ms Max: 3845.28 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.24%
+Node: 2 Duty cycle: 3.05%
+Node: 3 Duty cycle: 3.24%
+Node: 4 Duty cycle: 3.01%
+Node: 5 Duty cycle: 3.10%
+Node: 6 Duty cycle: 3.21%
+Node: 7 Duty cycle: 3.46%
+Node: 8 Duty cycle: 2.95%
+Node: 9 Duty cycle: 3.04%
+Node: 10 Duty cycle: 3.20%
+Overall Duty Cycle: 3.15% Stdev: 0.15% Min: 2.95% Max: 3.46%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 9/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 9
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 26 LOST: 0
+Node: 2 PDR: 92.59% SENT: 27 LOST: 2
+Node: 3 PDR: 100.00% SENT: 23 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 95.83% SENT: 24 LOST: 1
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 22 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 25 LOST: 0
+Node: 10 PDR: 95.24% SENT: 21 LOST: 1
+Overall PDR: 98.41% (4 LOST / 252 SENT)
+
+***** Latency *****
+Average: 151.51 ms Stdev: 876.98 ms Min: 19.27 ms Max: 13853.18 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.43%
+Node: 2 Duty cycle: 3.08%
+Node: 3 Duty cycle: 3.26%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.07%
+Node: 6 Duty cycle: 3.38%
+Node: 7 Duty cycle: 3.50%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.23%
+Node: 10 Duty cycle: 3.50%
+Overall Duty Cycle: 3.24% Stdev: 0.20% Min: 2.99% Max: 3.50%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 10/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 10
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 67.86% SENT: 28 LOST: 9
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 95.45% SENT: 22 LOST: 1
+Node: 7 PDR: 95.45% SENT: 22 LOST: 1
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 22 LOST: 0
+Node: 10 PDR: 100.00% SENT: 23 LOST: 0
+Overall PDR: 95.33% (12 LOST / 257 SENT)
+
+***** Latency *****
+Average: 82.87 ms Stdev: 68.01 ms Min: 19.16 ms Max: 662.49 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.56%
+Node: 2 Duty cycle: 3.09%
+Node: 3 Duty cycle: 3.10%
+Node: 4 Duty cycle: 2.95%
+Node: 5 Duty cycle: 3.12%
+Node: 6 Duty cycle: 3.16%
+Node: 7 Duty cycle: 3.42%
+Node: 8 Duty cycle: 2.96%
+Node: 9 Duty cycle: 3.19%
+Node: 10 Duty cycle: 3.41%
+Overall Duty Cycle: 3.20% Stdev: 0.20% Min: 2.95% Max: 3.56%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 11/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 11
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 96.43% SENT: 28 LOST: 1
+Node: 3 PDR: 96.15% SENT: 26 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 96.00% SENT: 25 LOST: 1
+Node: 8 PDR: 90.91% SENT: 22 LOST: 2
+Node: 9 PDR: 95.00% SENT: 20 LOST: 1
+Node: 10 PDR: 100.00% SENT: 23 LOST: 0
+Overall PDR: 97.27% (7 LOST / 256 SENT)
+
+***** Latency *****
+Average: 90.10 ms Stdev: 66.10 ms Min: 16.72 ms Max: 591.65 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.49%
+Node: 2 Duty cycle: 3.11%
+Node: 3 Duty cycle: 3.03%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.06%
+Node: 6 Duty cycle: 3.20%
+Node: 7 Duty cycle: 3.31%
+Node: 8 Duty cycle: 2.95%
+Node: 9 Duty cycle: 3.20%
+Node: 10 Duty cycle: 3.51%
+Overall Duty Cycle: 3.18% Stdev: 0.20% Min: 2.95% Max: 3.51%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 12/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 12
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 100.00% SENT: 27 LOST: 0
+Node: 4 PDR: 96.43% SENT: 28 LOST: 1
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 22 LOST: 0
+Node: 7 PDR: 100.00% SENT: 23 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 22 LOST: 0
+Overall PDR: 99.62% (1 LOST / 262 SENT)
+
+***** Latency *****
+Average: 84.77 ms Stdev: 61.79 ms Min: 16.84 ms Max: 481.13 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.27%
+Node: 2 Duty cycle: 3.08%
+Node: 3 Duty cycle: 3.03%
+Node: 4 Duty cycle: 3.01%
+Node: 5 Duty cycle: 3.01%
+Node: 6 Duty cycle: 3.29%
+Node: 7 Duty cycle: 3.50%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.02%
+Node: 10 Duty cycle: 3.47%
+Overall Duty Cycle: 3.17% Stdev: 0.20% Min: 3.00% Max: 3.50%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 13/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 13
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 96.43% SENT: 28 LOST: 1
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 92.86% SENT: 28 LOST: 2
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 100.00% SENT: 25 LOST: 0
+Node: 7 PDR: 100.00% SENT: 28 LOST: 0
+Node: 8 PDR: 100.00% SENT: 21 LOST: 0
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 95.83% SENT: 24 LOST: 1
+Overall PDR: 97.37% (7 LOST / 266 SENT)
+
+***** Latency *****
+Average: 94.06 ms Stdev: 80.19 ms Min: 16.80 ms Max: 732.74 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.44%
+Node: 2 Duty cycle: 3.21%
+Node: 3 Duty cycle: 3.03%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.08%
+Node: 6 Duty cycle: 3.26%
+Node: 7 Duty cycle: 3.56%
+Node: 8 Duty cycle: 2.93%
+Node: 9 Duty cycle: 3.17%
+Node: 10 Duty cycle: 3.26%
+Overall Duty Cycle: 3.19% Stdev: 0.20% Min: 2.93% Max: 3.56%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 14/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 14
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 96.43% SENT: 28 LOST: 1
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 26 LOST: 0
+Overall PDR: 99.64% (1 LOST / 274 SENT)
+
+***** Latency *****
+Average: 166.15 ms Stdev: 1317.78 ms Min: 16.82 ms Max: 21839.84 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.47%
+Node: 2 Duty cycle: 3.10%
+Node: 3 Duty cycle: 3.12%
+Node: 4 Duty cycle: 3.01%
+Node: 5 Duty cycle: 3.12%
+Node: 6 Duty cycle: 3.31%
+Node: 7 Duty cycle: 3.41%
+Node: 8 Duty cycle: 3.03%
+Node: 9 Duty cycle: 3.06%
+Node: 10 Duty cycle: 3.39%
+Overall Duty Cycle: 3.20% Stdev: 0.17% Min: 3.01% Max: 3.47%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 15/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 15
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 96.15% SENT: 26 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 21 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 99.63% (1 LOST / 267 SENT)
+
+***** Latency *****
+Average: 78.62 ms Stdev: 48.76 ms Min: 19.15 ms Max: 349.36 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.23%
+Node: 2 Duty cycle: 3.12%
+Node: 3 Duty cycle: 3.15%
+Node: 4 Duty cycle: 3.01%
+Node: 5 Duty cycle: 3.08%
+Node: 6 Duty cycle: 3.20%
+Node: 7 Duty cycle: 3.57%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.13%
+Node: 10 Duty cycle: 3.34%
+Overall Duty Cycle: 3.18% Stdev: 0.17% Min: 2.98% Max: 3.57%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 16/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 16
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 22 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 23 LOST: 0
+Node: 10 PDR: 100.00% SENT: 22 LOST: 0
+Overall PDR: 100.00% (0 LOST / 263 SENT)
+
+***** Latency *****
+Average: 87.35 ms Stdev: 49.41 ms Min: 19.38 ms Max: 324.65 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.41%
+Node: 2 Duty cycle: 3.10%
+Node: 3 Duty cycle: 3.00%
+Node: 4 Duty cycle: 2.98%
+Node: 5 Duty cycle: 3.13%
+Node: 6 Duty cycle: 3.30%
+Node: 7 Duty cycle: 3.45%
+Node: 8 Duty cycle: 2.95%
+Node: 9 Duty cycle: 2.99%
+Node: 10 Duty cycle: 3.33%
+Overall Duty Cycle: 3.16% Stdev: 0.19% Min: 2.95% Max: 3.45%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 17/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 17
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 25 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 27 LOST: 0
+Node: 7 PDR: 100.00% SENT: 23 LOST: 0
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 96.00% SENT: 25 LOST: 1
+Node: 10 PDR: 96.00% SENT: 25 LOST: 1
+Overall PDR: 98.49% (4 LOST / 265 SENT)
+
+***** Latency *****
+Average: 89.51 ms Stdev: 66.98 ms Min: 19.08 ms Max: 451.82 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.31%
+Node: 2 Duty cycle: 3.13%
+Node: 3 Duty cycle: 3.28%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.10%
+Node: 6 Duty cycle: 3.23%
+Node: 7 Duty cycle: 3.53%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.20%
+Node: 10 Duty cycle: 3.33%
+Overall Duty Cycle: 3.21% Stdev: 0.16% Min: 2.99% Max: 3.53%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 18/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 18
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 92.59% SENT: 27 LOST: 2
+Node: 2 PDR: 96.15% SENT: 26 LOST: 1
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 24 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 96.15% SENT: 26 LOST: 1
+Node: 8 PDR: 83.33% SENT: 24 LOST: 4
+Node: 9 PDR: 95.83% SENT: 24 LOST: 1
+Node: 10 PDR: 91.67% SENT: 24 LOST: 2
+Overall PDR: 95.37% (12 LOST / 259 SENT)
+
+***** Latency *****
+Average: 95.05 ms Stdev: 74.86 ms Min: 19.12 ms Max: 576.92 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.50%
+Node: 2 Duty cycle: 3.16%
+Node: 3 Duty cycle: 3.97%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.15%
+Node: 6 Duty cycle: 3.34%
+Node: 7 Duty cycle: 3.74%
+Node: 8 Duty cycle: 3.14%
+Node: 9 Duty cycle: 3.19%
+Node: 10 Duty cycle: 4.06%
+Overall Duty Cycle: 3.42% Stdev: 0.38% Min: 2.97% Max: 4.06%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 19/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 19
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.15% SENT: 26 LOST: 1
+Node: 2 PDR: 88.00% SENT: 25 LOST: 3
+Node: 3 PDR: 92.86% SENT: 28 LOST: 2
+Node: 4 PDR: 91.30% SENT: 23 LOST: 2
+Node: 5 PDR: 100.00% SENT: 27 LOST: 0
+Node: 6 PDR: 96.43% SENT: 28 LOST: 1
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 92.86% SENT: 28 LOST: 2
+Node: 10 PDR: 92.59% SENT: 27 LOST: 2
+Overall PDR: 94.74% (14 LOST / 266 SENT)
+
+***** Latency *****
+Average: 97.10 ms Stdev: 93.18 ms Min: 19.34 ms Max: 984.32 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.90%
+Node: 2 Duty cycle: 3.22%
+Node: 3 Duty cycle: 3.16%
+Node: 4 Duty cycle: 3.02%
+Node: 5 Duty cycle: 3.18%
+Node: 6 Duty cycle: 3.52%
+Node: 7 Duty cycle: 3.60%
+Node: 8 Duty cycle: 2.96%
+Node: 9 Duty cycle: 3.02%
+Node: 10 Duty cycle: 3.36%
+Overall Duty Cycle: 3.29% Stdev: 0.30% Min: 2.96% Max: 3.90%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 20/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 20
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 26 LOST: 0
+Node: 2 PDR: 100.00% SENT: 21 LOST: 0
+Node: 3 PDR: 100.00% SENT: 25 LOST: 0
+Node: 4 PDR: 100.00% SENT: 27 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 26 LOST: 0
+Node: 7 PDR: 100.00% SENT: 27 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 22 LOST: 0
+Overall PDR: 100.00% (0 LOST / 258 SENT)
+
+***** Latency *****
+Average: 89.86 ms Stdev: 69.65 ms Min: 16.83 ms Max: 424.21 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.37%
+Node: 2 Duty cycle: 3.11%
+Node: 3 Duty cycle: 3.29%
+Node: 4 Duty cycle: 3.01%
+Node: 5 Duty cycle: 3.04%
+Node: 6 Duty cycle: 3.28%
+Node: 7 Duty cycle: 3.51%
+Node: 8 Duty cycle: 3.07%
+Node: 9 Duty cycle: 3.02%
+Node: 10 Duty cycle: 3.28%
+Overall Duty Cycle: 3.20% Stdev: 0.17% Min: 3.01% Max: 3.51%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 21/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 21
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 26 LOST: 0
+Node: 2 PDR: 100.00% SENT: 27 LOST: 0
+Node: 3 PDR: 95.45% SENT: 22 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 27 LOST: 0
+Node: 7 PDR: 100.00% SENT: 24 LOST: 0
+Node: 8 PDR: 92.31% SENT: 26 LOST: 2
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 98.85% (3 LOST / 260 SENT)
+
+***** Latency *****
+Average: 83.71 ms Stdev: 73.72 ms Min: 17.00 ms Max: 720.86 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.34%
+Node: 2 Duty cycle: 3.19%
+Node: 3 Duty cycle: 3.13%
+Node: 4 Duty cycle: 2.95%
+Node: 5 Duty cycle: 3.15%
+Node: 6 Duty cycle: 3.18%
+Node: 7 Duty cycle: 3.54%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.07%
+Node: 10 Duty cycle: 3.27%
+Overall Duty Cycle: 3.18% Stdev: 0.17% Min: 2.95% Max: 3.54%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 22/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 22
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 25 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 100.00% SENT: 25 LOST: 0
+Node: 4 PDR: 92.86% SENT: 28 LOST: 2
+Node: 5 PDR: 96.15% SENT: 26 LOST: 1
+Node: 6 PDR: 100.00% SENT: 27 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 95.00% SENT: 20 LOST: 1
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 98.05% (5 LOST / 256 SENT)
+
+***** Latency *****
+Average: 91.82 ms Stdev: 99.62 ms Min: 19.18 ms Max: 1000.11 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.35%
+Node: 2 Duty cycle: 3.09%
+Node: 3 Duty cycle: 3.12%
+Node: 4 Duty cycle: 3.01%
+Node: 5 Duty cycle: 3.10%
+Node: 6 Duty cycle: 3.28%
+Node: 7 Duty cycle: 3.49%
+Node: 8 Duty cycle: 3.02%
+Node: 9 Duty cycle: 3.25%
+Node: 10 Duty cycle: 3.49%
+Overall Duty Cycle: 3.22% Stdev: 0.18% Min: 3.01% Max: 3.49%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 23/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 23
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 25 LOST: 0
+Node: 2 PDR: 92.86% SENT: 28 LOST: 2
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 90.91% SENT: 22 LOST: 2
+Node: 5 PDR: 96.30% SENT: 27 LOST: 1
+Node: 6 PDR: 85.19% SENT: 27 LOST: 4
+Node: 7 PDR: 88.00% SENT: 25 LOST: 3
+Node: 8 PDR: 92.86% SENT: 28 LOST: 2
+Node: 9 PDR: 96.00% SENT: 25 LOST: 1
+Node: 10 PDR: 96.00% SENT: 25 LOST: 1
+Overall PDR: 93.46% (17 LOST / 260 SENT)
+
+***** Latency *****
+Average: 94.39 ms Stdev: 96.91 ms Min: 19.17 ms Max: 1175.24 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.37%
+Node: 2 Duty cycle: 3.21%
+Node: 3 Duty cycle: 3.34%
+Node: 4 Duty cycle: 3.03%
+Node: 5 Duty cycle: 3.03%
+Node: 6 Duty cycle: 3.31%
+Node: 7 Duty cycle: 3.49%
+Node: 8 Duty cycle: 3.08%
+Node: 9 Duty cycle: 3.21%
+Node: 10 Duty cycle: 3.58%
+Overall Duty Cycle: 3.26% Stdev: 0.19% Min: 3.03% Max: 3.58%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 24/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 24
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 26 LOST: 0
+Node: 2 PDR: 100.00% SENT: 27 LOST: 0
+Node: 3 PDR: 100.00% SENT: 23 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 100.00% SENT: 27 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 20 LOST: 0
+Node: 10 PDR: 100.00% SENT: 20 LOST: 0
+Overall PDR: 100.00% (0 LOST / 251 SENT)
+
+***** Latency *****
+Average: 94.91 ms Stdev: 89.88 ms Min: 19.21 ms Max: 890.52 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.33%
+Node: 2 Duty cycle: 3.21%
+Node: 3 Duty cycle: 3.17%
+Node: 4 Duty cycle: 3.01%
+Node: 5 Duty cycle: 3.03%
+Node: 6 Duty cycle: 3.24%
+Node: 7 Duty cycle: 3.41%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.15%
+Node: 10 Duty cycle: 3.56%
+Overall Duty Cycle: 3.21% Stdev: 0.18% Min: 2.99% Max: 3.56%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 25/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 25
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 25 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 100.00% SENT: 27 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 26 LOST: 0
+Node: 7 PDR: 100.00% SENT: 27 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 26 LOST: 0
+Node: 10 PDR: 100.00% SENT: 23 LOST: 0
+Overall PDR: 100.00% (0 LOST / 266 SENT)
+
+***** Latency *****
+Average: 81.43 ms Stdev: 50.92 ms Min: 16.83 ms Max: 321.39 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.22%
+Node: 2 Duty cycle: 3.05%
+Node: 3 Duty cycle: 3.17%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.07%
+Node: 6 Duty cycle: 3.24%
+Node: 7 Duty cycle: 3.37%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.14%
+Node: 10 Duty cycle: 3.45%
+Overall Duty Cycle: 3.17% Stdev: 0.15% Min: 2.98% Max: 3.45%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 26/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 26
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 96.00% SENT: 25 LOST: 1
+Node: 4 PDR: 78.57% SENT: 28 LOST: 6
+Node: 5 PDR: 100.00% SENT: 25 LOST: 0
+Node: 6 PDR: 85.71% SENT: 28 LOST: 4
+Node: 7 PDR: 92.00% SENT: 25 LOST: 2
+Node: 8 PDR: 89.29% SENT: 28 LOST: 3
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 95.45% SENT: 22 LOST: 1
+Overall PDR: 93.54% (17 LOST / 263 SENT)
+
+***** Latency *****
+Average: 88.75 ms Stdev: 59.93 ms Min: 16.92 ms Max: 365.19 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.37%
+Node: 2 Duty cycle: 3.05%
+Node: 3 Duty cycle: 3.07%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.13%
+Node: 6 Duty cycle: 3.23%
+Node: 7 Duty cycle: 3.72%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.06%
+Node: 10 Duty cycle: 3.28%
+Overall Duty Cycle: 3.19% Stdev: 0.22% Min: 2.99% Max: 3.72%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 27/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 27
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 92.31% SENT: 26 LOST: 2
+Node: 6 PDR: 96.15% SENT: 26 LOST: 1
+Node: 7 PDR: 96.00% SENT: 25 LOST: 1
+Node: 8 PDR: 96.15% SENT: 26 LOST: 1
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 96.15% SENT: 26 LOST: 1
+Overall PDR: 97.75% (6 LOST / 267 SENT)
+
+***** Latency *****
+Average: 89.08 ms Stdev: 86.03 ms Min: 19.19 ms Max: 723.72 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.46%
+Node: 2 Duty cycle: 3.10%
+Node: 3 Duty cycle: 3.10%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.08%
+Node: 6 Duty cycle: 3.32%
+Node: 7 Duty cycle: 3.82%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.05%
+Node: 10 Duty cycle: 3.42%
+Overall Duty Cycle: 3.23% Stdev: 0.27% Min: 2.99% Max: 3.82%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 28/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 28
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 25 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 27 LOST: 0
+Node: 7 PDR: 100.00% SENT: 27 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 26 LOST: 0
+Overall PDR: 100.00% (0 LOST / 273 SENT)
+
+***** Latency *****
+Average: 90.72 ms Stdev: 73.70 ms Min: 19.24 ms Max: 579.79 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.35%
+Node: 2 Duty cycle: 3.09%
+Node: 3 Duty cycle: 3.13%
+Node: 4 Duty cycle: 2.95%
+Node: 5 Duty cycle: 3.08%
+Node: 6 Duty cycle: 3.23%
+Node: 7 Duty cycle: 3.55%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.15%
+Node: 10 Duty cycle: 3.46%
+Overall Duty Cycle: 3.20% Stdev: 0.20% Min: 2.95% Max: 3.55%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 29/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 29
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 96.15% SENT: 26 LOST: 1
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 92.86% SENT: 28 LOST: 2
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 88.89% SENT: 27 LOST: 3
+Node: 7 PDR: 95.45% SENT: 22 LOST: 1
+Node: 8 PDR: 100.00% SENT: 24 LOST: 0
+Node: 9 PDR: 92.59% SENT: 27 LOST: 2
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 96.18% (10 LOST / 262 SENT)
+
+***** Latency *****
+Average: 86.93 ms Stdev: 65.08 ms Min: 19.23 ms Max: 530.64 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.40%
+Node: 2 Duty cycle: 3.11%
+Node: 3 Duty cycle: 3.04%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.04%
+Node: 6 Duty cycle: 3.38%
+Node: 7 Duty cycle: 3.49%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.09%
+Node: 10 Duty cycle: 3.31%
+Overall Duty Cycle: 3.18% Stdev: 0.19% Min: 2.97% Max: 3.49%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 30/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 30
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 95.65% SENT: 23 LOST: 1
+Node: 4 PDR: 100.00% SENT: 25 LOST: 0
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 95.83% SENT: 24 LOST: 1
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 100.00% SENT: 23 LOST: 0
+Overall PDR: 98.85% (3 LOST / 261 SENT)
+
+***** Latency *****
+Average: 89.65 ms Stdev: 183.02 ms Min: 19.04 ms Max: 2892.62 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.25%
+Node: 2 Duty cycle: 3.09%
+Node: 3 Duty cycle: 3.05%
+Node: 4 Duty cycle: 2.98%
+Node: 5 Duty cycle: 3.06%
+Node: 6 Duty cycle: 3.30%
+Node: 7 Duty cycle: 3.63%
+Node: 8 Duty cycle: 3.02%
+Node: 9 Duty cycle: 3.23%
+Node: 10 Duty cycle: 3.29%
+Overall Duty Cycle: 3.19% Stdev: 0.19% Min: 2.98% Max: 3.63%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 31/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 31
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 96.43% SENT: 28 LOST: 1
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 89.29% SENT: 28 LOST: 3
+Node: 5 PDR: 96.00% SENT: 25 LOST: 1
+Node: 6 PDR: 100.00% SENT: 22 LOST: 0
+Node: 7 PDR: 96.00% SENT: 25 LOST: 1
+Node: 8 PDR: 96.15% SENT: 26 LOST: 1
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 91.67% SENT: 24 LOST: 2
+Overall PDR: 95.80% (11 LOST / 262 SENT)
+
+***** Latency *****
+Average: 89.64 ms Stdev: 60.83 ms Min: 16.97 ms Max: 425.49 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.21%
+Node: 2 Duty cycle: 3.15%
+Node: 3 Duty cycle: 3.12%
+Node: 4 Duty cycle: 3.01%
+Node: 5 Duty cycle: 3.03%
+Node: 6 Duty cycle: 3.38%
+Node: 7 Duty cycle: 3.62%
+Node: 8 Duty cycle: 3.02%
+Node: 9 Duty cycle: 3.18%
+Node: 10 Duty cycle: 3.49%
+Overall Duty Cycle: 3.22% Stdev: 0.21% Min: 3.01% Max: 3.62%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 32/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 32
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 23 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 100.00% SENT: 26 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 100.00% SENT: 27 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 22 LOST: 0
+Overall PDR: 100.00% (0 LOST / 261 SENT)
+
+***** Latency *****
+Average: 88.41 ms Stdev: 59.88 ms Min: 19.24 ms Max: 523.46 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.31%
+Node: 2 Duty cycle: 3.10%
+Node: 3 Duty cycle: 3.24%
+Node: 4 Duty cycle: 3.01%
+Node: 5 Duty cycle: 3.16%
+Node: 6 Duty cycle: 3.36%
+Node: 7 Duty cycle: 3.56%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.02%
+Node: 10 Duty cycle: 3.35%
+Overall Duty Cycle: 3.21% Stdev: 0.19% Min: 2.99% Max: 3.56%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 33/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 33
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 24 LOST: 0
+Node: 3 PDR: 96.30% SENT: 27 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 96.30% SENT: 27 LOST: 1
+Node: 7 PDR: 100.00% SENT: 24 LOST: 0
+Node: 8 PDR: 88.00% SENT: 25 LOST: 3
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 25 LOST: 0
+Overall PDR: 98.09% (5 LOST / 262 SENT)
+
+***** Latency *****
+Average: 95.40 ms Stdev: 74.63 ms Min: 16.82 ms Max: 532.01 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.31%
+Node: 2 Duty cycle: 3.13%
+Node: 3 Duty cycle: 3.09%
+Node: 4 Duty cycle: 2.98%
+Node: 5 Duty cycle: 3.07%
+Node: 6 Duty cycle: 3.38%
+Node: 7 Duty cycle: 3.61%
+Node: 8 Duty cycle: 3.03%
+Node: 9 Duty cycle: 3.17%
+Node: 10 Duty cycle: 3.36%
+Overall Duty Cycle: 3.21% Stdev: 0.20% Min: 2.98% Max: 3.61%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 34/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 34
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 96.00% SENT: 25 LOST: 1
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 100.00% SENT: 23 LOST: 0
+Node: 7 PDR: 100.00% SENT: 23 LOST: 0
+Node: 8 PDR: 52.17% SENT: 23 LOST: 11
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 22 LOST: 0
+Overall PDR: 95.28% (12 LOST / 254 SENT)
+
+***** Latency *****
+Average: 83.49 ms Stdev: 51.31 ms Min: 19.30 ms Max: 375.96 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.28%
+Node: 2 Duty cycle: 3.10%
+Node: 3 Duty cycle: 3.12%
+Node: 4 Duty cycle: 2.96%
+Node: 5 Duty cycle: 3.11%
+Node: 6 Duty cycle: 3.30%
+Node: 7 Duty cycle: 3.41%
+Node: 8 Duty cycle: 2.97%
+Node: 9 Duty cycle: 3.04%
+Node: 10 Duty cycle: 3.42%
+Overall Duty Cycle: 3.17% Stdev: 0.17% Min: 2.96% Max: 3.42%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 35/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 35
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 25 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 100.00% SENT: 25 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 26 LOST: 0
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 100.00% (0 LOST / 262 SENT)
+
+***** Latency *****
+Average: 92.58 ms Stdev: 68.54 ms Min: 19.17 ms Max: 446.09 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.46%
+Node: 2 Duty cycle: 3.10%
+Node: 3 Duty cycle: 3.20%
+Node: 4 Duty cycle: 2.96%
+Node: 5 Duty cycle: 3.12%
+Node: 6 Duty cycle: 3.32%
+Node: 7 Duty cycle: 3.41%
+Node: 8 Duty cycle: 3.02%
+Node: 9 Duty cycle: 3.21%
+Node: 10 Duty cycle: 3.32%
+Overall Duty Cycle: 3.21% Stdev: 0.17% Min: 2.96% Max: 3.46%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 36/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 36
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.43% SENT: 28 LOST: 1
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 100.00% SENT: 24 LOST: 0
+Node: 4 PDR: 96.43% SENT: 28 LOST: 1
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 92.86% SENT: 28 LOST: 2
+Node: 7 PDR: 96.00% SENT: 25 LOST: 1
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 27 LOST: 0
+Node: 10 PDR: 100.00% SENT: 21 LOST: 0
+Overall PDR: 98.11% (5 LOST / 265 SENT)
+
+***** Latency *****
+Average: 81.44 ms Stdev: 55.51 ms Min: 16.66 ms Max: 437.12 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.35%
+Node: 2 Duty cycle: 3.08%
+Node: 3 Duty cycle: 3.08%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.05%
+Node: 6 Duty cycle: 3.26%
+Node: 7 Duty cycle: 3.59%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.05%
+Node: 10 Duty cycle: 3.33%
+Overall Duty Cycle: 3.18% Stdev: 0.20% Min: 2.98% Max: 3.59%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 37/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 37
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 27 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 24 LOST: 0
+Node: 9 PDR: 100.00% SENT: 21 LOST: 0
+Node: 10 PDR: 100.00% SENT: 23 LOST: 0
+Overall PDR: 100.00% (0 LOST / 261 SENT)
+
+***** Latency *****
+Average: 133.86 ms Stdev: 467.96 ms Min: 16.76 ms Max: 7294.27 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.39%
+Node: 2 Duty cycle: 3.22%
+Node: 3 Duty cycle: 3.20%
+Node: 4 Duty cycle: 3.01%
+Node: 5 Duty cycle: 3.11%
+Node: 6 Duty cycle: 3.33%
+Node: 7 Duty cycle: 3.27%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.20%
+Node: 10 Duty cycle: 3.62%
+Overall Duty Cycle: 3.24% Stdev: 0.18% Min: 3.00% Max: 3.62%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 38/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 38
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.43% SENT: 28 LOST: 1
+Node: 2 PDR: 100.00% SENT: 24 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 85.71% SENT: 28 LOST: 4
+Node: 5 PDR: 92.86% SENT: 28 LOST: 2
+Node: 6 PDR: 81.48% SENT: 27 LOST: 5
+Node: 7 PDR: 84.62% SENT: 26 LOST: 4
+Node: 8 PDR: 78.57% SENT: 28 LOST: 6
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 96.30% SENT: 27 LOST: 1
+Overall PDR: 91.18% (24 LOST / 272 SENT)
+
+***** Latency *****
+Average: 87.04 ms Stdev: 73.25 ms Min: 16.75 ms Max: 695.88 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.35%
+Node: 2 Duty cycle: 3.26%
+Node: 3 Duty cycle: 3.15%
+Node: 4 Duty cycle: 2.93%
+Node: 5 Duty cycle: 3.02%
+Node: 6 Duty cycle: 3.23%
+Node: 7 Duty cycle: 3.81%
+Node: 8 Duty cycle: 2.94%
+Node: 9 Duty cycle: 3.23%
+Node: 10 Duty cycle: 3.65%
+Overall Duty Cycle: 3.26% Stdev: 0.29% Min: 2.93% Max: 3.81%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 39/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 39
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 24 LOST: 0
+Node: 2 PDR: 96.43% SENT: 28 LOST: 1
+Node: 3 PDR: 100.00% SENT: 26 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 25 LOST: 0
+Node: 7 PDR: 100.00% SENT: 27 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 94.74% SENT: 19 LOST: 1
+Node: 10 PDR: 100.00% SENT: 26 LOST: 0
+Overall PDR: 99.23% (2 LOST / 259 SENT)
+
+***** Latency *****
+Average: 84.49 ms Stdev: 55.35 ms Min: 19.04 ms Max: 315.84 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.31%
+Node: 2 Duty cycle: 3.10%
+Node: 3 Duty cycle: 3.02%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.13%
+Node: 6 Duty cycle: 3.36%
+Node: 7 Duty cycle: 3.47%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.13%
+Node: 10 Duty cycle: 3.33%
+Overall Duty Cycle: 3.18% Stdev: 0.17% Min: 2.98% Max: 3.47%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 40/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 40
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.15% SENT: 26 LOST: 1
+Node: 2 PDR: 79.17% SENT: 24 LOST: 5
+Node: 3 PDR: 100.00% SENT: 24 LOST: 0
+Node: 4 PDR: 96.00% SENT: 25 LOST: 1
+Node: 5 PDR: 100.00% SENT: 25 LOST: 0
+Node: 6 PDR: 100.00% SENT: 27 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 100.00% SENT: 27 LOST: 0
+Node: 9 PDR: 84.00% SENT: 25 LOST: 4
+Node: 10 PDR: 95.24% SENT: 21 LOST: 1
+Overall PDR: 95.18% (12 LOST / 249 SENT)
+
+***** Latency *****
+Average: 86.47 ms Stdev: 59.65 ms Min: 19.10 ms Max: 393.39 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.41%
+Node: 2 Duty cycle: 3.07%
+Node: 3 Duty cycle: 3.19%
+Node: 4 Duty cycle: 2.96%
+Node: 5 Duty cycle: 3.12%
+Node: 6 Duty cycle: 3.13%
+Node: 7 Duty cycle: 3.40%
+Node: 8 Duty cycle: 3.02%
+Node: 9 Duty cycle: 3.19%
+Node: 10 Duty cycle: 3.48%
+Overall Duty Cycle: 3.20% Stdev: 0.18% Min: 2.96% Max: 3.48%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 41/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 41
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 27 LOST: 0
+Node: 3 PDR: 95.65% SENT: 23 LOST: 1
+Node: 4 PDR: 96.43% SENT: 28 LOST: 1
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 100.00% SENT: 26 LOST: 0
+Node: 7 PDR: 100.00% SENT: 23 LOST: 0
+Node: 8 PDR: 95.65% SENT: 23 LOST: 1
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 95.83% SENT: 24 LOST: 1
+Overall PDR: 97.67% (6 LOST / 258 SENT)
+
+***** Latency *****
+Average: 95.97 ms Stdev: 155.72 ms Min: 17.16 ms Max: 2390.47 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.32%
+Node: 2 Duty cycle: 3.11%
+Node: 3 Duty cycle: 3.12%
+Node: 4 Duty cycle: 3.02%
+Node: 5 Duty cycle: 3.12%
+Node: 6 Duty cycle: 3.28%
+Node: 7 Duty cycle: 3.40%
+Node: 8 Duty cycle: 3.03%
+Node: 9 Duty cycle: 3.21%
+Node: 10 Duty cycle: 3.37%
+Overall Duty Cycle: 3.20% Stdev: 0.14% Min: 3.02% Max: 3.40%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 42/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 42
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 91.67% SENT: 24 LOST: 2
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 92.86% SENT: 28 LOST: 2
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 92.86% SENT: 28 LOST: 2
+Node: 10 PDR: 91.67% SENT: 24 LOST: 2
+Overall PDR: 97.01% (8 LOST / 268 SENT)
+
+***** Latency *****
+Average: 84.71 ms Stdev: 63.21 ms Min: 19.15 ms Max: 581.45 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.46%
+Node: 2 Duty cycle: 3.08%
+Node: 3 Duty cycle: 3.11%
+Node: 4 Duty cycle: 2.95%
+Node: 5 Duty cycle: 3.12%
+Node: 6 Duty cycle: 3.21%
+Node: 7 Duty cycle: 3.43%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.11%
+Node: 10 Duty cycle: 3.40%
+Overall Duty Cycle: 3.19% Stdev: 0.18% Min: 2.95% Max: 3.46%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 43/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 43
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 96.43% SENT: 28 LOST: 1
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 96.43% SENT: 28 LOST: 1
+Node: 7 PDR: 100.00% SENT: 24 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 98.89% (3 LOST / 270 SENT)
+
+***** Latency *****
+Average: 79.46 ms Stdev: 56.57 ms Min: 19.19 ms Max: 440.04 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.27%
+Node: 2 Duty cycle: 3.12%
+Node: 3 Duty cycle: 3.05%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.08%
+Node: 6 Duty cycle: 3.36%
+Node: 7 Duty cycle: 3.57%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.09%
+Node: 10 Duty cycle: 3.29%
+Overall Duty Cycle: 3.18% Stdev: 0.19% Min: 2.99% Max: 3.57%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 44/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 44
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 96.15% SENT: 26 LOST: 1
+Node: 3 PDR: 92.86% SENT: 28 LOST: 2
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 92.86% SENT: 28 LOST: 2
+Node: 7 PDR: 96.15% SENT: 26 LOST: 1
+Node: 8 PDR: 90.91% SENT: 22 LOST: 2
+Node: 9 PDR: 92.59% SENT: 27 LOST: 2
+Node: 10 PDR: 92.31% SENT: 26 LOST: 2
+Overall PDR: 95.13% (13 LOST / 267 SENT)
+
+***** Latency *****
+Average: 94.55 ms Stdev: 109.17 ms Min: 19.22 ms Max: 1524.40 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.44%
+Node: 2 Duty cycle: 3.10%
+Node: 3 Duty cycle: 3.05%
+Node: 4 Duty cycle: 2.96%
+Node: 5 Duty cycle: 3.16%
+Node: 6 Duty cycle: 3.21%
+Node: 7 Duty cycle: 3.63%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.19%
+Node: 10 Duty cycle: 3.47%
+Overall Duty Cycle: 3.22% Stdev: 0.22% Min: 2.96% Max: 3.63%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 45/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 45
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 26 LOST: 0
+Node: 2 PDR: 100.00% SENT: 24 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 96.00% SENT: 25 LOST: 1
+Node: 7 PDR: 96.15% SENT: 26 LOST: 1
+Node: 8 PDR: 100.00% SENT: 22 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 25 LOST: 0
+Overall PDR: 99.22% (2 LOST / 258 SENT)
+
+***** Latency *****
+Average: 89.32 ms Stdev: 69.37 ms Min: 19.16 ms Max: 429.63 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.34%
+Node: 2 Duty cycle: 3.11%
+Node: 3 Duty cycle: 3.11%
+Node: 4 Duty cycle: 3.03%
+Node: 5 Duty cycle: 3.08%
+Node: 6 Duty cycle: 3.31%
+Node: 7 Duty cycle: 3.37%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.13%
+Node: 10 Duty cycle: 3.49%
+Overall Duty Cycle: 3.20% Stdev: 0.17% Min: 3.00% Max: 3.49%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 46/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 46
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 26 LOST: 0
+Node: 2 PDR: 100.00% SENT: 25 LOST: 0
+Node: 3 PDR: 96.00% SENT: 25 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 96.15% SENT: 26 LOST: 1
+Node: 6 PDR: 96.43% SENT: 28 LOST: 1
+Node: 7 PDR: 100.00% SENT: 27 LOST: 0
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 92.59% SENT: 27 LOST: 2
+Node: 10 PDR: 95.83% SENT: 24 LOST: 1
+Overall PDR: 97.35% (7 LOST / 264 SENT)
+
+***** Latency *****
+Average: 89.51 ms Stdev: 57.97 ms Min: 19.18 ms Max: 396.21 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.37%
+Node: 2 Duty cycle: 3.06%
+Node: 3 Duty cycle: 3.19%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.07%
+Node: 6 Duty cycle: 3.31%
+Node: 7 Duty cycle: 3.30%
+Node: 8 Duty cycle: 3.03%
+Node: 9 Duty cycle: 3.17%
+Node: 10 Duty cycle: 3.39%
+Overall Duty Cycle: 3.19% Stdev: 0.15% Min: 2.99% Max: 3.39%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 47/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 47
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 24 LOST: 0
+Node: 2 PDR: 96.30% SENT: 27 LOST: 1
+Node: 3 PDR: 90.00% SENT: 20 LOST: 2
+Node: 4 PDR: 100.00% SENT: 22 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 95.83% SENT: 24 LOST: 1
+Node: 8 PDR: 100.00% SENT: 24 LOST: 0
+Node: 9 PDR: 100.00% SENT: 27 LOST: 0
+Node: 10 PDR: 100.00% SENT: 25 LOST: 0
+Overall PDR: 98.39% (4 LOST / 249 SENT)
+
+***** Latency *****
+Average: 106.60 ms Stdev: 125.82 ms Min: 19.30 ms Max: 1320.01 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.45%
+Node: 2 Duty cycle: 3.17%
+Node: 3 Duty cycle: 3.23%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.13%
+Node: 6 Duty cycle: 3.30%
+Node: 7 Duty cycle: 3.56%
+Node: 8 Duty cycle: 3.06%
+Node: 9 Duty cycle: 3.22%
+Node: 10 Duty cycle: 3.39%
+Overall Duty Cycle: 3.25% Stdev: 0.18% Min: 2.99% Max: 3.56%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 48/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 48
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 96.30% SENT: 27 LOST: 1
+Node: 3 PDR: 90.91% SENT: 22 LOST: 2
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 27 LOST: 0
+Node: 8 PDR: 100.00% SENT: 25 LOST: 0
+Node: 9 PDR: 96.15% SENT: 26 LOST: 1
+Node: 10 PDR: 95.65% SENT: 23 LOST: 1
+Overall PDR: 97.71% (6 LOST / 262 SENT)
+
+***** Latency *****
+Average: 92.33 ms Stdev: 88.37 ms Min: 19.25 ms Max: 752.49 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.47%
+Node: 2 Duty cycle: 3.11%
+Node: 3 Duty cycle: 3.20%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.12%
+Node: 6 Duty cycle: 3.22%
+Node: 7 Duty cycle: 3.55%
+Node: 8 Duty cycle: 3.08%
+Node: 9 Duty cycle: 3.16%
+Node: 10 Duty cycle: 3.36%
+Overall Duty Cycle: 3.22% Stdev: 0.18% Min: 2.97% Max: 3.55%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 49/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 49
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.15% SENT: 26 LOST: 1
+Node: 2 PDR: 96.00% SENT: 25 LOST: 1
+Node: 3 PDR: 91.67% SENT: 24 LOST: 2
+Node: 4 PDR: 96.15% SENT: 26 LOST: 1
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 100.00% SENT: 27 LOST: 0
+Node: 7 PDR: 96.15% SENT: 26 LOST: 1
+Node: 8 PDR: 95.45% SENT: 22 LOST: 1
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 96.15% SENT: 26 LOST: 1
+Overall PDR: 96.48% (9 LOST / 256 SENT)
+
+***** Latency *****
+Average: 103.76 ms Stdev: 82.32 ms Min: 16.80 ms Max: 647.62 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.38%
+Node: 2 Duty cycle: 3.22%
+Node: 3 Duty cycle: 3.11%
+Node: 4 Duty cycle: 3.04%
+Node: 5 Duty cycle: 3.15%
+Node: 6 Duty cycle: 3.15%
+Node: 7 Duty cycle: 3.60%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.17%
+Node: 10 Duty cycle: 3.55%
+Overall Duty Cycle: 3.24% Stdev: 0.21% Min: 2.99% Max: 3.60%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 50/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 50
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 27 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 25 LOST: 0
+Overall PDR: 100.00% (0 LOST / 274 SENT)
+
+***** Latency *****
+Average: 101.26 ms Stdev: 121.11 ms Min: 19.07 ms Max: 1245.94 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.29%
+Node: 2 Duty cycle: 3.20%
+Node: 3 Duty cycle: 3.05%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.01%
+Node: 6 Duty cycle: 3.36%
+Node: 7 Duty cycle: 3.41%
+Node: 8 Duty cycle: 2.96%
+Node: 9 Duty cycle: 2.97%
+Node: 10 Duty cycle: 3.50%
+Overall Duty Cycle: 3.17% Stdev: 0.20% Min: 2.96% Max: 3.50%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 51/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 51
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 100.00% SENT: 21 LOST: 0
+Node: 5 PDR: 96.30% SENT: 27 LOST: 1
+Node: 6 PDR: 100.00% SENT: 26 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 100.00% SENT: 25 LOST: 0
+Overall PDR: 98.48% (4 LOST / 264 SENT)
+
+***** Latency *****
+Average: 95.24 ms Stdev: 119.42 ms Min: 16.75 ms Max: 1610.24 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.41%
+Node: 2 Duty cycle: 3.17%
+Node: 3 Duty cycle: 3.06%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.04%
+Node: 6 Duty cycle: 3.16%
+Node: 7 Duty cycle: 3.33%
+Node: 8 Duty cycle: 3.02%
+Node: 9 Duty cycle: 3.25%
+Node: 10 Duty cycle: 3.47%
+Overall Duty Cycle: 3.19% Stdev: 0.17% Min: 2.99% Max: 3.47%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 52/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 52
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 84.62% SENT: 26 LOST: 4
+Node: 2 PDR: 88.46% SENT: 26 LOST: 3
+Node: 3 PDR: 92.86% SENT: 28 LOST: 2
+Node: 4 PDR: 85.71% SENT: 28 LOST: 4
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 25 LOST: 0
+Node: 7 PDR: 100.00% SENT: 28 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 100.00% SENT: 27 LOST: 0
+Overall PDR: 94.85% (14 LOST / 272 SENT)
+
+***** Latency *****
+Average: 83.02 ms Stdev: 71.88 ms Min: 19.25 ms Max: 723.48 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.45%
+Node: 2 Duty cycle: 3.11%
+Node: 3 Duty cycle: 3.12%
+Node: 4 Duty cycle: 2.98%
+Node: 5 Duty cycle: 3.06%
+Node: 6 Duty cycle: 3.24%
+Node: 7 Duty cycle: 3.44%
+Node: 8 Duty cycle: 2.94%
+Node: 9 Duty cycle: 2.96%
+Node: 10 Duty cycle: 3.18%
+Overall Duty Cycle: 3.15% Stdev: 0.18% Min: 2.94% Max: 3.45%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 53/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 53
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 27 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 95.24% SENT: 21 LOST: 1
+Node: 5 PDR: 96.30% SENT: 27 LOST: 1
+Node: 6 PDR: 100.00% SENT: 25 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 20 LOST: 0
+Node: 10 PDR: 100.00% SENT: 27 LOST: 0
+Overall PDR: 98.83% (3 LOST / 257 SENT)
+
+***** Latency *****
+Average: 86.91 ms Stdev: 62.96 ms Min: 16.80 ms Max: 508.66 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.37%
+Node: 2 Duty cycle: 3.09%
+Node: 3 Duty cycle: 3.08%
+Node: 4 Duty cycle: 3.03%
+Node: 5 Duty cycle: 3.13%
+Node: 6 Duty cycle: 3.29%
+Node: 7 Duty cycle: 3.62%
+Node: 8 Duty cycle: 3.03%
+Node: 9 Duty cycle: 3.09%
+Node: 10 Duty cycle: 3.33%
+Overall Duty Cycle: 3.21% Stdev: 0.19% Min: 3.03% Max: 3.62%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 54/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 54
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.43% SENT: 28 LOST: 1
+Node: 2 PDR: 100.00% SENT: 27 LOST: 0
+Node: 3 PDR: 92.86% SENT: 28 LOST: 2
+Node: 4 PDR: 89.29% SENT: 28 LOST: 3
+Node: 5 PDR: 92.86% SENT: 28 LOST: 2
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 24 LOST: 0
+Node: 8 PDR: 95.65% SENT: 23 LOST: 1
+Node: 9 PDR: 96.15% SENT: 26 LOST: 1
+Node: 10 PDR: 88.89% SENT: 27 LOST: 3
+Overall PDR: 95.13% (13 LOST / 267 SENT)
+
+***** Latency *****
+Average: 93.66 ms Stdev: 92.00 ms Min: 16.72 ms Max: 803.31 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.27%
+Node: 2 Duty cycle: 3.15%
+Node: 3 Duty cycle: 4.25%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.04%
+Node: 6 Duty cycle: 3.36%
+Node: 7 Duty cycle: 3.81%
+Node: 8 Duty cycle: 3.14%
+Node: 9 Duty cycle: 3.13%
+Node: 10 Duty cycle: 4.06%
+Overall Duty Cycle: 3.42% Stdev: 0.45% Min: 2.99% Max: 4.25%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 55/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 55
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 27 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 27 LOST: 0
+Node: 6 PDR: 100.00% SENT: 25 LOST: 0
+Node: 7 PDR: 100.00% SENT: 28 LOST: 0
+Node: 8 PDR: 95.65% SENT: 23 LOST: 1
+Node: 9 PDR: 90.00% SENT: 20 LOST: 2
+Node: 10 PDR: 95.83% SENT: 24 LOST: 1
+Overall PDR: 98.06% (5 LOST / 258 SENT)
+
+***** Latency *****
+Average: 111.68 ms Stdev: 221.72 ms Min: 16.93 ms Max: 3384.99 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.40%
+Node: 2 Duty cycle: 3.14%
+Node: 3 Duty cycle: 3.04%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.08%
+Node: 6 Duty cycle: 3.45%
+Node: 7 Duty cycle: 3.45%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.16%
+Node: 10 Duty cycle: 3.47%
+Overall Duty Cycle: 3.22% Stdev: 0.20% Min: 3.00% Max: 3.47%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 56/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 56
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 25 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 100.00% SENT: 27 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 100.00% SENT: 25 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 95.83% SENT: 24 LOST: 1
+Node: 10 PDR: 100.00% SENT: 27 LOST: 0
+Overall PDR: 99.24% (2 LOST / 264 SENT)
+
+***** Latency *****
+Average: 90.00 ms Stdev: 95.69 ms Min: 19.32 ms Max: 794.34 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.52%
+Node: 2 Duty cycle: 3.12%
+Node: 3 Duty cycle: 3.12%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.10%
+Node: 6 Duty cycle: 3.26%
+Node: 7 Duty cycle: 3.47%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.23%
+Node: 10 Duty cycle: 3.23%
+Overall Duty Cycle: 3.20% Stdev: 0.18% Min: 2.97% Max: 3.52%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 57/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 57
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 27 LOST: 0
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 100.00% SENT: 20 LOST: 0
+Node: 10 PDR: 95.83% SENT: 24 LOST: 1
+Overall PDR: 99.25% (2 LOST / 267 SENT)
+
+***** Latency *****
+Average: 78.63 ms Stdev: 59.10 ms Min: 19.21 ms Max: 500.69 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.23%
+Node: 2 Duty cycle: 3.08%
+Node: 3 Duty cycle: 3.06%
+Node: 4 Duty cycle: 2.96%
+Node: 5 Duty cycle: 3.10%
+Node: 6 Duty cycle: 3.19%
+Node: 7 Duty cycle: 3.45%
+Node: 8 Duty cycle: 3.05%
+Node: 9 Duty cycle: 3.20%
+Node: 10 Duty cycle: 3.35%
+Overall Duty Cycle: 3.17% Stdev: 0.15% Min: 2.96% Max: 3.45%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 58/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 58
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 88.00% SENT: 25 LOST: 3
+Node: 2 PDR: 88.89% SENT: 27 LOST: 3
+Node: 3 PDR: 77.78% SENT: 18 LOST: 4
+Node: 4 PDR: 57.14% SENT: 28 LOST: 12
+Node: 5 PDR: 92.86% SENT: 28 LOST: 2
+Node: 6 PDR: 76.00% SENT: 25 LOST: 6
+Node: 7 PDR: 84.00% SENT: 25 LOST: 4
+Node: 8 PDR: 75.00% SENT: 28 LOST: 7
+Node: 9 PDR: 81.48% SENT: 27 LOST: 5
+Node: 10 PDR: 92.00% SENT: 25 LOST: 2
+Overall PDR: 81.25% (48 LOST / 256 SENT)
+
+***** Latency *****
+Average: 83.57 ms Stdev: 65.96 ms Min: 19.13 ms Max: 507.85 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.86%
+Node: 2 Duty cycle: 3.14%
+Node: 3 Duty cycle: 3.20%
+Node: 4 Duty cycle: 3.08%
+Node: 5 Duty cycle: 3.08%
+Node: 6 Duty cycle: 3.87%
+Node: 7 Duty cycle: 3.58%
+Node: 8 Duty cycle: 3.07%
+Node: 9 Duty cycle: 3.23%
+Node: 10 Duty cycle: 3.33%
+Overall Duty Cycle: 3.34% Stdev: 0.31% Min: 3.07% Max: 3.87%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 59/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 59
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 26 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 27 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 22 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 100.00% (0 LOST / 267 SENT)
+
+***** Latency *****
+Average: 76.48 ms Stdev: 45.05 ms Min: 19.24 ms Max: 235.13 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.25%
+Node: 2 Duty cycle: 3.04%
+Node: 3 Duty cycle: 3.14%
+Node: 4 Duty cycle: 2.96%
+Node: 5 Duty cycle: 3.12%
+Node: 6 Duty cycle: 3.37%
+Node: 7 Duty cycle: 3.53%
+Node: 8 Duty cycle: 2.97%
+Node: 9 Duty cycle: 3.15%
+Node: 10 Duty cycle: 3.30%
+Overall Duty Cycle: 3.18% Stdev: 0.18% Min: 2.96% Max: 3.53%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 60/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 60
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.15% SENT: 26 LOST: 1
+Node: 2 PDR: 96.43% SENT: 28 LOST: 1
+Node: 3 PDR: 96.00% SENT: 25 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 88.46% SENT: 26 LOST: 3
+Node: 6 PDR: 100.00% SENT: 27 LOST: 0
+Node: 7 PDR: 95.65% SENT: 23 LOST: 1
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 100.00% SENT: 25 LOST: 0
+Node: 10 PDR: 92.31% SENT: 26 LOST: 2
+Overall PDR: 96.18% (10 LOST / 262 SENT)
+
+***** Latency *****
+Average: 89.43 ms Stdev: 84.46 ms Min: 16.76 ms Max: 585.86 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.44%
+Node: 2 Duty cycle: 3.17%
+Node: 3 Duty cycle: 3.47%
+Node: 4 Duty cycle: 2.94%
+Node: 5 Duty cycle: 3.08%
+Node: 6 Duty cycle: 3.27%
+Node: 7 Duty cycle: 3.51%
+Node: 8 Duty cycle: 3.08%
+Node: 9 Duty cycle: 3.27%
+Node: 10 Duty cycle: 3.49%
+Overall Duty Cycle: 3.27% Stdev: 0.20% Min: 2.94% Max: 3.51%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 61/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 61
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.43% SENT: 28 LOST: 1
+Node: 2 PDR: 100.00% SENT: 25 LOST: 0
+Node: 3 PDR: 100.00% SENT: 22 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 27 LOST: 0
+Overall PDR: 99.63% (1 LOST / 268 SENT)
+
+***** Latency *****
+Average: 86.57 ms Stdev: 65.39 ms Min: 19.51 ms Max: 542.58 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.24%
+Node: 2 Duty cycle: 3.21%
+Node: 3 Duty cycle: 3.12%
+Node: 4 Duty cycle: 2.98%
+Node: 5 Duty cycle: 3.15%
+Node: 6 Duty cycle: 3.22%
+Node: 7 Duty cycle: 3.51%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.08%
+Node: 10 Duty cycle: 3.42%
+Overall Duty Cycle: 3.19% Stdev: 0.17% Min: 2.98% Max: 3.51%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 62/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 62
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 92.86% SENT: 28 LOST: 2
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 95.45% SENT: 22 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 88.00% SENT: 25 LOST: 3
+Node: 6 PDR: 96.15% SENT: 26 LOST: 1
+Node: 7 PDR: 96.00% SENT: 25 LOST: 1
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 88.89% SENT: 27 LOST: 3
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 95.79% (11 LOST / 261 SENT)
+
+***** Latency *****
+Average: 106.56 ms Stdev: 359.88 ms Min: 19.33 ms Max: 5693.69 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.32%
+Node: 2 Duty cycle: 3.02%
+Node: 3 Duty cycle: 3.19%
+Node: 4 Duty cycle: 2.95%
+Node: 5 Duty cycle: 3.06%
+Node: 6 Duty cycle: 3.26%
+Node: 7 Duty cycle: 3.45%
+Node: 8 Duty cycle: 3.05%
+Node: 9 Duty cycle: 3.19%
+Node: 10 Duty cycle: 3.40%
+Overall Duty Cycle: 3.19% Stdev: 0.17% Min: 2.95% Max: 3.45%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 63/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 63
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 92.86% SENT: 28 LOST: 2
+Node: 2 PDR: 96.43% SENT: 28 LOST: 1
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 89.29% SENT: 28 LOST: 3
+Node: 5 PDR: 92.86% SENT: 28 LOST: 2
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 21 LOST: 0
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 100.00% SENT: 23 LOST: 0
+Overall PDR: 96.24% (10 LOST / 266 SENT)
+
+***** Latency *****
+Average: 78.88 ms Stdev: 55.84 ms Min: 16.61 ms Max: 547.98 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.36%
+Node: 2 Duty cycle: 3.13%
+Node: 3 Duty cycle: 3.16%
+Node: 4 Duty cycle: 2.93%
+Node: 5 Duty cycle: 3.07%
+Node: 6 Duty cycle: 3.23%
+Node: 7 Duty cycle: 3.43%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.02%
+Node: 10 Duty cycle: 3.30%
+Overall Duty Cycle: 3.16% Stdev: 0.17% Min: 2.93% Max: 3.43%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 64/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 64
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.43% SENT: 28 LOST: 1
+Node: 2 PDR: 100.00% SENT: 22 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 96.15% SENT: 26 LOST: 1
+Node: 7 PDR: 96.15% SENT: 26 LOST: 1
+Node: 8 PDR: 96.15% SENT: 26 LOST: 1
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 96.15% SENT: 26 LOST: 1
+Overall PDR: 97.37% (7 LOST / 266 SENT)
+
+***** Latency *****
+Average: 92.54 ms Stdev: 68.69 ms Min: 19.05 ms Max: 536.01 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.42%
+Node: 2 Duty cycle: 3.13%
+Node: 3 Duty cycle: 3.26%
+Node: 4 Duty cycle: 3.03%
+Node: 5 Duty cycle: 3.13%
+Node: 6 Duty cycle: 3.43%
+Node: 7 Duty cycle: 3.52%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.05%
+Node: 10 Duty cycle: 3.39%
+Overall Duty Cycle: 3.23% Stdev: 0.19% Min: 2.98% Max: 3.52%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 65/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 65
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.43% SENT: 28 LOST: 1
+Node: 2 PDR: 100.00% SENT: 27 LOST: 0
+Node: 3 PDR: 92.86% SENT: 28 LOST: 2
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 92.31% SENT: 26 LOST: 2
+Node: 6 PDR: 100.00% SENT: 27 LOST: 0
+Node: 7 PDR: 95.83% SENT: 24 LOST: 1
+Node: 8 PDR: 95.45% SENT: 22 LOST: 1
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 100.00% SENT: 26 LOST: 0
+Overall PDR: 96.97% (8 LOST / 264 SENT)
+
+***** Latency *****
+Average: 94.11 ms Stdev: 139.57 ms Min: 19.30 ms Max: 1855.22 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.43%
+Node: 2 Duty cycle: 3.17%
+Node: 3 Duty cycle: 3.09%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.23%
+Node: 6 Duty cycle: 3.20%
+Node: 7 Duty cycle: 3.67%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.23%
+Node: 10 Duty cycle: 3.30%
+Overall Duty Cycle: 3.23% Stdev: 0.20% Min: 2.98% Max: 3.67%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 66/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 66
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 100.00% SENT: 26 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 96.30% SENT: 27 LOST: 1
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 96.15% SENT: 26 LOST: 1
+Overall PDR: 99.26% (2 LOST / 271 SENT)
+
+***** Latency *****
+Average: 81.41 ms Stdev: 76.87 ms Min: 19.21 ms Max: 750.41 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.22%
+Node: 2 Duty cycle: 3.11%
+Node: 3 Duty cycle: 3.03%
+Node: 4 Duty cycle: 2.94%
+Node: 5 Duty cycle: 3.02%
+Node: 6 Duty cycle: 3.29%
+Node: 7 Duty cycle: 3.50%
+Node: 8 Duty cycle: 3.01%
+Node: 9 Duty cycle: 3.14%
+Node: 10 Duty cycle: 3.34%
+Overall Duty Cycle: 3.16% Stdev: 0.18% Min: 2.94% Max: 3.50%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 67/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 67
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 25 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 96.43% SENT: 28 LOST: 1
+Node: 7 PDR: 96.00% SENT: 25 LOST: 1
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 23 LOST: 0
+Overall PDR: 98.87% (3 LOST / 265 SENT)
+
+***** Latency *****
+Average: 85.72 ms Stdev: 96.87 ms Min: 16.76 ms Max: 1398.19 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.59%
+Node: 2 Duty cycle: 3.09%
+Node: 3 Duty cycle: 3.07%
+Node: 4 Duty cycle: 2.96%
+Node: 5 Duty cycle: 3.07%
+Node: 6 Duty cycle: 3.28%
+Node: 7 Duty cycle: 3.35%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.01%
+Node: 10 Duty cycle: 3.47%
+Overall Duty Cycle: 3.19% Stdev: 0.22% Min: 2.96% Max: 3.59%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 68/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 68
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 96.15% SENT: 26 LOST: 1
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 25 LOST: 0
+Node: 6 PDR: 92.86% SENT: 28 LOST: 2
+Node: 7 PDR: 96.00% SENT: 25 LOST: 1
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 91.67% SENT: 24 LOST: 2
+Overall PDR: 97.39% (7 LOST / 268 SENT)
+
+***** Latency *****
+Average: 99.05 ms Stdev: 92.55 ms Min: 16.73 ms Max: 714.58 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.53%
+Node: 2 Duty cycle: 3.12%
+Node: 3 Duty cycle: 3.10%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.13%
+Node: 6 Duty cycle: 3.35%
+Node: 7 Duty cycle: 3.57%
+Node: 8 Duty cycle: 3.06%
+Node: 9 Duty cycle: 3.32%
+Node: 10 Duty cycle: 3.29%
+Overall Duty Cycle: 3.25% Stdev: 0.20% Min: 3.00% Max: 3.57%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 69/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 69
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 92.86% SENT: 28 LOST: 2
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 95.65% SENT: 23 LOST: 1
+Node: 9 PDR: 100.00% SENT: 27 LOST: 0
+Node: 10 PDR: 96.15% SENT: 26 LOST: 1
+Overall PDR: 98.50% (4 LOST / 266 SENT)
+
+***** Latency *****
+Average: 83.12 ms Stdev: 66.42 ms Min: 17.42 ms Max: 559.15 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.33%
+Node: 2 Duty cycle: 3.14%
+Node: 3 Duty cycle: 3.14%
+Node: 4 Duty cycle: 2.96%
+Node: 5 Duty cycle: 3.04%
+Node: 6 Duty cycle: 3.24%
+Node: 7 Duty cycle: 3.38%
+Node: 8 Duty cycle: 3.05%
+Node: 9 Duty cycle: 3.14%
+Node: 10 Duty cycle: 3.59%
+Overall Duty Cycle: 3.20% Stdev: 0.19% Min: 2.96% Max: 3.59%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 70/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 70
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 89.29% SENT: 28 LOST: 3
+Node: 2 PDR: 100.00% SENT: 25 LOST: 0
+Node: 3 PDR: 92.86% SENT: 28 LOST: 2
+Node: 4 PDR: 82.14% SENT: 28 LOST: 5
+Node: 5 PDR: 85.71% SENT: 28 LOST: 4
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 95.83% SENT: 24 LOST: 1
+Node: 8 PDR: 91.67% SENT: 24 LOST: 2
+Node: 9 PDR: 89.29% SENT: 28 LOST: 3
+Node: 10 PDR: 92.31% SENT: 26 LOST: 2
+Overall PDR: 91.76% (22 LOST / 267 SENT)
+
+***** Latency *****
+Average: 86.38 ms Stdev: 48.90 ms Min: 19.13 ms Max: 358.61 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.37%
+Node: 2 Duty cycle: 3.09%
+Node: 3 Duty cycle: 3.15%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.06%
+Node: 6 Duty cycle: 3.22%
+Node: 7 Duty cycle: 3.56%
+Node: 8 Duty cycle: 2.97%
+Node: 9 Duty cycle: 3.03%
+Node: 10 Duty cycle: 3.39%
+Overall Duty Cycle: 3.18% Stdev: 0.20% Min: 2.97% Max: 3.56%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 71/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 71
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 85.19% SENT: 27 LOST: 4
+Node: 2 PDR: 95.65% SENT: 23 LOST: 1
+Node: 3 PDR: 78.57% SENT: 28 LOST: 6
+Node: 4 PDR: 64.29% SENT: 28 LOST: 10
+Node: 5 PDR: 96.15% SENT: 26 LOST: 1
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 88.00% SENT: 25 LOST: 3
+Node: 8 PDR: 79.17% SENT: 24 LOST: 5
+Node: 9 PDR: 85.19% SENT: 27 LOST: 4
+Node: 10 PDR: 86.96% SENT: 23 LOST: 3
+Overall PDR: 85.71% (37 LOST / 259 SENT)
+
+***** Latency *****
+Average: 104.03 ms Stdev: 97.09 ms Min: 19.15 ms Max: 702.14 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.70%
+Node: 2 Duty cycle: 3.32%
+Node: 3 Duty cycle: 3.27%
+Node: 4 Duty cycle: 2.96%
+Node: 5 Duty cycle: 3.14%
+Node: 6 Duty cycle: 3.65%
+Node: 7 Duty cycle: 3.35%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.14%
+Node: 10 Duty cycle: 3.54%
+Overall Duty Cycle: 3.31% Stdev: 0.26% Min: 2.96% Max: 3.70%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 72/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 72
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 95.83% SENT: 24 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 26 LOST: 0
+Node: 6 PDR: 100.00% SENT: 26 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 20 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 27 LOST: 0
+Overall PDR: 99.61% (1 LOST / 259 SENT)
+
+***** Latency *****
+Average: 88.04 ms Stdev: 66.39 ms Min: 16.79 ms Max: 451.64 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.42%
+Node: 2 Duty cycle: 3.12%
+Node: 3 Duty cycle: 3.23%
+Node: 4 Duty cycle: 3.02%
+Node: 5 Duty cycle: 3.10%
+Node: 6 Duty cycle: 3.23%
+Node: 7 Duty cycle: 3.56%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.09%
+Node: 10 Duty cycle: 3.29%
+Overall Duty Cycle: 3.21% Stdev: 0.18% Min: 2.99% Max: 3.56%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 73/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 73
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.43% SENT: 28 LOST: 1
+Node: 2 PDR: 100.00% SENT: 25 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 96.00% SENT: 25 LOST: 1
+Node: 6 PDR: 100.00% SENT: 26 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 23 LOST: 0
+Node: 10 PDR: 96.30% SENT: 27 LOST: 1
+Overall PDR: 98.48% (4 LOST / 264 SENT)
+
+***** Latency *****
+Average: 83.72 ms Stdev: 58.02 ms Min: 19.07 ms Max: 388.96 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.28%
+Node: 2 Duty cycle: 3.15%
+Node: 3 Duty cycle: 3.06%
+Node: 4 Duty cycle: 2.93%
+Node: 5 Duty cycle: 3.10%
+Node: 6 Duty cycle: 3.22%
+Node: 7 Duty cycle: 3.40%
+Node: 8 Duty cycle: 2.97%
+Node: 9 Duty cycle: 3.10%
+Node: 10 Duty cycle: 3.48%
+Overall Duty Cycle: 3.17% Stdev: 0.18% Min: 2.93% Max: 3.48%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 74/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 74
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 88.00% SENT: 25 LOST: 3
+Node: 2 PDR: 92.31% SENT: 26 LOST: 2
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 27 LOST: 0
+Node: 6 PDR: 100.00% SENT: 25 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 27 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 25 LOST: 0
+Overall PDR: 98.11% (5 LOST / 265 SENT)
+
+***** Latency *****
+Average: 109.45 ms Stdev: 359.04 ms Min: 19.14 ms Max: 5649.65 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.36%
+Node: 2 Duty cycle: 3.10%
+Node: 3 Duty cycle: 3.11%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.04%
+Node: 6 Duty cycle: 3.26%
+Node: 7 Duty cycle: 3.64%
+Node: 8 Duty cycle: 3.02%
+Node: 9 Duty cycle: 3.37%
+Node: 10 Duty cycle: 3.29%
+Overall Duty Cycle: 3.22% Stdev: 0.20% Min: 3.00% Max: 3.64%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 75/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 75
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 23 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 95.24% SENT: 21 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 95.83% SENT: 24 LOST: 1
+Node: 6 PDR: 96.30% SENT: 27 LOST: 1
+Node: 7 PDR: 100.00% SENT: 24 LOST: 0
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 95.24% SENT: 21 LOST: 1
+Node: 10 PDR: 95.45% SENT: 22 LOST: 1
+Overall PDR: 97.54% (6 LOST / 244 SENT)
+
+***** Latency *****
+Average: 93.62 ms Stdev: 104.69 ms Min: 19.18 ms Max: 1138.35 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.40%
+Node: 2 Duty cycle: 3.18%
+Node: 3 Duty cycle: 3.10%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.10%
+Node: 6 Duty cycle: 3.36%
+Node: 7 Duty cycle: 3.68%
+Node: 8 Duty cycle: 3.01%
+Node: 9 Duty cycle: 3.16%
+Node: 10 Duty cycle: 3.48%
+Overall Duty Cycle: 3.24% Stdev: 0.23% Min: 2.97% Max: 3.68%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 76/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 76
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 92.86% SENT: 28 LOST: 2
+Node: 4 PDR: 92.86% SENT: 28 LOST: 2
+Node: 5 PDR: 100.00% SENT: 25 LOST: 0
+Node: 6 PDR: 100.00% SENT: 25 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 100.00% SENT: 23 LOST: 0
+Node: 9 PDR: 92.86% SENT: 28 LOST: 2
+Node: 10 PDR: 96.00% SENT: 25 LOST: 1
+Overall PDR: 97.32% (7 LOST / 261 SENT)
+
+***** Latency *****
+Average: 89.40 ms Stdev: 68.63 ms Min: 19.07 ms Max: 492.04 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.27%
+Node: 2 Duty cycle: 3.07%
+Node: 3 Duty cycle: 3.17%
+Node: 4 Duty cycle: 3.02%
+Node: 5 Duty cycle: 3.10%
+Node: 6 Duty cycle: 3.28%
+Node: 7 Duty cycle: 3.56%
+Node: 8 Duty cycle: 3.03%
+Node: 9 Duty cycle: 3.18%
+Node: 10 Duty cycle: 3.54%
+Overall Duty Cycle: 3.22% Stdev: 0.19% Min: 3.02% Max: 3.56%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 77/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 77
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.43% SENT: 28 LOST: 1
+Node: 2 PDR: 84.00% SENT: 25 LOST: 4
+Node: 3 PDR: 96.30% SENT: 27 LOST: 1
+Node: 4 PDR: 92.86% SENT: 28 LOST: 2
+Node: 5 PDR: 100.00% SENT: 25 LOST: 0
+Node: 6 PDR: 96.30% SENT: 27 LOST: 1
+Node: 7 PDR: 95.83% SENT: 24 LOST: 1
+Node: 8 PDR: 89.29% SENT: 28 LOST: 3
+Node: 9 PDR: 92.86% SENT: 28 LOST: 2
+Node: 10 PDR: 87.50% SENT: 24 LOST: 3
+Overall PDR: 93.18% (18 LOST / 264 SENT)
+
+***** Latency *****
+Average: 80.98 ms Stdev: 52.69 ms Min: 19.02 ms Max: 386.52 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.29%
+Node: 2 Duty cycle: 3.07%
+Node: 3 Duty cycle: 3.32%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.04%
+Node: 6 Duty cycle: 3.22%
+Node: 7 Duty cycle: 3.52%
+Node: 8 Duty cycle: 3.05%
+Node: 9 Duty cycle: 3.61%
+Node: 10 Duty cycle: 4.06%
+Overall Duty Cycle: 3.32% Stdev: 0.33% Min: 3.00% Max: 4.06%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 78/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 78
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 85.71% SENT: 28 LOST: 4
+Node: 2 PDR: 100.00% SENT: 24 LOST: 0
+Node: 3 PDR: 92.86% SENT: 28 LOST: 2
+Node: 4 PDR: 96.43% SENT: 28 LOST: 1
+Node: 5 PDR: 89.29% SENT: 28 LOST: 3
+Node: 6 PDR: 100.00% SENT: 25 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 91.67% SENT: 24 LOST: 2
+Node: 10 PDR: 100.00% SENT: 27 LOST: 0
+Overall PDR: 95.47% (12 LOST / 265 SENT)
+
+***** Latency *****
+Average: 90.95 ms Stdev: 81.02 ms Min: 19.22 ms Max: 708.98 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.42%
+Node: 2 Duty cycle: 3.13%
+Node: 3 Duty cycle: 3.08%
+Node: 4 Duty cycle: 2.93%
+Node: 5 Duty cycle: 3.04%
+Node: 6 Duty cycle: 3.27%
+Node: 7 Duty cycle: 3.55%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.10%
+Node: 10 Duty cycle: 3.21%
+Overall Duty Cycle: 3.17% Stdev: 0.19% Min: 2.93% Max: 3.55%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 79/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 79
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 100.00% SENT: 20 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 27 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 24 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 22 LOST: 0
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 100.00% (0 LOST / 255 SENT)
+
+***** Latency *****
+Average: 188.35 ms Stdev: 1697.88 ms Min: 19.22 ms Max: 27178.97 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.28%
+Node: 2 Duty cycle: 3.10%
+Node: 3 Duty cycle: 3.07%
+Node: 4 Duty cycle: 2.96%
+Node: 5 Duty cycle: 3.06%
+Node: 6 Duty cycle: 3.30%
+Node: 7 Duty cycle: 3.48%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.06%
+Node: 10 Duty cycle: 3.38%
+Overall Duty Cycle: 3.17% Stdev: 0.18% Min: 2.96% Max: 3.48%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 80/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 80
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 27 LOST: 0
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 100.00% SENT: 19 LOST: 0
+Node: 10 PDR: 100.00% SENT: 25 LOST: 0
+Overall PDR: 99.25% (2 LOST / 265 SENT)
+
+***** Latency *****
+Average: 91.53 ms Stdev: 61.21 ms Min: 19.07 ms Max: 466.26 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.31%
+Node: 2 Duty cycle: 3.06%
+Node: 3 Duty cycle: 3.00%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.13%
+Node: 6 Duty cycle: 3.36%
+Node: 7 Duty cycle: 3.26%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.13%
+Node: 10 Duty cycle: 3.41%
+Overall Duty Cycle: 3.17% Stdev: 0.16% Min: 2.99% Max: 3.41%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 81/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 81
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.15% SENT: 26 LOST: 1
+Node: 2 PDR: 96.43% SENT: 28 LOST: 1
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 24 LOST: 0
+Node: 6 PDR: 100.00% SENT: 23 LOST: 0
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 95.83% SENT: 24 LOST: 1
+Node: 9 PDR: 100.00% SENT: 27 LOST: 0
+Node: 10 PDR: 100.00% SENT: 26 LOST: 0
+Overall PDR: 98.46% (4 LOST / 260 SENT)
+
+***** Latency *****
+Average: 87.20 ms Stdev: 64.30 ms Min: 19.18 ms Max: 450.64 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.43%
+Node: 2 Duty cycle: 3.12%
+Node: 3 Duty cycle: 3.19%
+Node: 4 Duty cycle: 3.02%
+Node: 5 Duty cycle: 3.15%
+Node: 6 Duty cycle: 3.33%
+Node: 7 Duty cycle: 3.55%
+Node: 8 Duty cycle: 3.06%
+Node: 9 Duty cycle: 3.11%
+Node: 10 Duty cycle: 3.27%
+Overall Duty Cycle: 3.22% Stdev: 0.17% Min: 3.02% Max: 3.55%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 82/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 82
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 100.00% SENT: 24 LOST: 0
+Node: 4 PDR: 82.14% SENT: 28 LOST: 5
+Node: 5 PDR: 100.00% SENT: 24 LOST: 0
+Node: 6 PDR: 71.43% SENT: 28 LOST: 8
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 22 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 95.00% (13 LOST / 260 SENT)
+
+***** Latency *****
+Average: 119.56 ms Stdev: 349.88 ms Min: 19.25 ms Max: 4718.42 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.47%
+Node: 2 Duty cycle: 3.12%
+Node: 3 Duty cycle: 3.13%
+Node: 4 Duty cycle: 2.95%
+Node: 5 Duty cycle: 3.06%
+Node: 6 Duty cycle: 3.29%
+Node: 7 Duty cycle: 3.45%
+Node: 8 Duty cycle: 3.02%
+Node: 9 Duty cycle: 3.02%
+Node: 10 Duty cycle: 3.45%
+Overall Duty Cycle: 3.20% Stdev: 0.20% Min: 2.95% Max: 3.47%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 83/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 83
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 26 LOST: 0
+Node: 2 PDR: 96.43% SENT: 28 LOST: 1
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 89.29% SENT: 28 LOST: 3
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 96.43% SENT: 28 LOST: 1
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 22 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 95.65% SENT: 23 LOST: 1
+Overall PDR: 97.36% (7 LOST / 265 SENT)
+
+***** Latency *****
+Average: 90.56 ms Stdev: 82.73 ms Min: 19.09 ms Max: 699.07 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.26%
+Node: 2 Duty cycle: 3.13%
+Node: 3 Duty cycle: 3.18%
+Node: 4 Duty cycle: 3.01%
+Node: 5 Duty cycle: 3.06%
+Node: 6 Duty cycle: 3.27%
+Node: 7 Duty cycle: 3.42%
+Node: 8 Duty cycle: 3.02%
+Node: 9 Duty cycle: 3.16%
+Node: 10 Duty cycle: 3.41%
+Overall Duty Cycle: 3.19% Stdev: 0.15% Min: 3.01% Max: 3.42%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 84/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 84
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.15% SENT: 26 LOST: 1
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 96.43% SENT: 28 LOST: 1
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 24 LOST: 0
+Node: 8 PDR: 100.00% SENT: 25 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 99.25% (2 LOST / 265 SENT)
+
+***** Latency *****
+Average: 110.54 ms Stdev: 253.98 ms Min: 19.13 ms Max: 3595.95 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.39%
+Node: 2 Duty cycle: 3.15%
+Node: 3 Duty cycle: 3.19%
+Node: 4 Duty cycle: 3.04%
+Node: 5 Duty cycle: 3.12%
+Node: 6 Duty cycle: 3.30%
+Node: 7 Duty cycle: 3.52%
+Node: 8 Duty cycle: 2.97%
+Node: 9 Duty cycle: 3.09%
+Node: 10 Duty cycle: 3.29%
+Overall Duty Cycle: 3.21% Stdev: 0.17% Min: 2.97% Max: 3.52%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 85/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 85
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 89.29% SENT: 28 LOST: 3
+Node: 2 PDR: 96.00% SENT: 25 LOST: 1
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 82.14% SENT: 28 LOST: 5
+Node: 5 PDR: 85.71% SENT: 28 LOST: 4
+Node: 6 PDR: 100.00% SENT: 26 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 96.00% SENT: 25 LOST: 1
+Overall PDR: 93.68% (17 LOST / 269 SENT)
+
+***** Latency *****
+Average: 94.08 ms Stdev: 98.28 ms Min: 16.81 ms Max: 1034.48 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.54%
+Node: 2 Duty cycle: 3.15%
+Node: 3 Duty cycle: 3.02%
+Node: 4 Duty cycle: 2.94%
+Node: 5 Duty cycle: 3.11%
+Node: 6 Duty cycle: 3.29%
+Node: 7 Duty cycle: 3.49%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.12%
+Node: 10 Duty cycle: 3.30%
+Overall Duty Cycle: 3.20% Stdev: 0.20% Min: 2.94% Max: 3.54%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 86/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 86
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 27 LOST: 0
+Node: 3 PDR: 91.30% SENT: 23 LOST: 2
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 24 LOST: 0
+Node: 8 PDR: 95.83% SENT: 24 LOST: 1
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 100.00% SENT: 25 LOST: 0
+Overall PDR: 98.48% (4 LOST / 263 SENT)
+
+***** Latency *****
+Average: 91.86 ms Stdev: 58.06 ms Min: 16.92 ms Max: 308.33 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.26%
+Node: 2 Duty cycle: 3.16%
+Node: 3 Duty cycle: 3.27%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.07%
+Node: 6 Duty cycle: 3.29%
+Node: 7 Duty cycle: 3.52%
+Node: 8 Duty cycle: 3.02%
+Node: 9 Duty cycle: 3.18%
+Node: 10 Duty cycle: 3.53%
+Overall Duty Cycle: 3.23% Stdev: 0.19% Min: 3.00% Max: 3.53%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 87/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 87
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 26 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 24 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 98.89% (3 LOST / 270 SENT)
+
+***** Latency *****
+Average: 83.63 ms Stdev: 57.79 ms Min: 16.89 ms Max: 304.95 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.27%
+Node: 2 Duty cycle: 3.16%
+Node: 3 Duty cycle: 3.10%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.05%
+Node: 6 Duty cycle: 3.37%
+Node: 7 Duty cycle: 3.57%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.04%
+Node: 10 Duty cycle: 3.31%
+Overall Duty Cycle: 3.19% Stdev: 0.19% Min: 2.99% Max: 3.57%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 88/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 88
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 25 LOST: 0
+Node: 3 PDR: 92.86% SENT: 28 LOST: 2
+Node: 4 PDR: 96.15% SENT: 26 LOST: 1
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 90.91% SENT: 22 LOST: 2
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 100.00% SENT: 23 LOST: 0
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 90.48% SENT: 21 LOST: 2
+Overall PDR: 96.47% (9 LOST / 255 SENT)
+
+***** Latency *****
+Average: 84.71 ms Stdev: 64.22 ms Min: 19.25 ms Max: 437.34 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.28%
+Node: 2 Duty cycle: 3.11%
+Node: 3 Duty cycle: 3.12%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.13%
+Node: 6 Duty cycle: 3.32%
+Node: 7 Duty cycle: 3.31%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.11%
+Node: 10 Duty cycle: 3.35%
+Overall Duty Cycle: 3.17% Stdev: 0.14% Min: 2.97% Max: 3.35%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 89/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 89
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 25 LOST: 0
+Node: 2 PDR: 100.00% SENT: 23 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 96.43% SENT: 28 LOST: 1
+Node: 5 PDR: 96.15% SENT: 26 LOST: 1
+Node: 6 PDR: 100.00% SENT: 26 LOST: 0
+Node: 7 PDR: 96.15% SENT: 26 LOST: 1
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 25 LOST: 0
+Overall PDR: 98.48% (4 LOST / 263 SENT)
+
+***** Latency *****
+Average: 86.26 ms Stdev: 59.71 ms Min: 16.76 ms Max: 494.14 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.56%
+Node: 2 Duty cycle: 3.08%
+Node: 3 Duty cycle: 3.21%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.08%
+Node: 6 Duty cycle: 3.19%
+Node: 7 Duty cycle: 3.30%
+Node: 8 Duty cycle: 3.00%
+Node: 9 Duty cycle: 3.10%
+Node: 10 Duty cycle: 3.52%
+Overall Duty Cycle: 3.20% Stdev: 0.20% Min: 2.97% Max: 3.56%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 90/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 90
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 57.14% SENT: 28 LOST: 12
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 76.19% SENT: 21 LOST: 5
+Node: 4 PDR: 67.86% SENT: 28 LOST: 9
+Node: 5 PDR: 50.00% SENT: 28 LOST: 14
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 82.14% SENT: 28 LOST: 5
+Node: 8 PDR: 29.17% SENT: 24 LOST: 17
+Node: 9 PDR: 90.48% SENT: 21 LOST: 2
+Node: 10 PDR: 73.08% SENT: 26 LOST: 7
+Overall PDR: 72.69% (71 LOST / 260 SENT)
+
+***** Latency *****
+Average: 127.21 ms Stdev: 578.72 ms Min: 16.93 ms Max: 7845.47 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.37%
+Node: 2 Duty cycle: 3.06%
+Node: 3 Duty cycle: 3.04%
+Node: 4 Duty cycle: 2.90%
+Node: 5 Duty cycle: 3.05%
+Node: 6 Duty cycle: 3.13%
+Node: 7 Duty cycle: 3.48%
+Node: 8 Duty cycle: 3.03%
+Node: 9 Duty cycle: 3.16%
+Node: 10 Duty cycle: 3.57%
+Overall Duty Cycle: 3.18% Stdev: 0.22% Min: 2.90% Max: 3.57%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 91/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 91
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 96.43% SENT: 28 LOST: 1
+Node: 2 PDR: 100.00% SENT: 25 LOST: 0
+Node: 3 PDR: 100.00% SENT: 25 LOST: 0
+Node: 4 PDR: 85.71% SENT: 28 LOST: 4
+Node: 5 PDR: 96.00% SENT: 25 LOST: 1
+Node: 6 PDR: 96.43% SENT: 28 LOST: 1
+Node: 7 PDR: 100.00% SENT: 23 LOST: 0
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 100.00% SENT: 18 LOST: 0
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 96.83% (8 LOST / 252 SENT)
+
+***** Latency *****
+Average: 82.64 ms Stdev: 54.90 ms Min: 19.05 ms Max: 309.77 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.37%
+Node: 2 Duty cycle: 3.07%
+Node: 3 Duty cycle: 3.01%
+Node: 4 Duty cycle: 3.00%
+Node: 5 Duty cycle: 3.19%
+Node: 6 Duty cycle: 3.31%
+Node: 7 Duty cycle: 3.52%
+Node: 8 Duty cycle: 3.02%
+Node: 9 Duty cycle: 3.11%
+Node: 10 Duty cycle: 3.43%
+Overall Duty Cycle: 3.20% Stdev: 0.19% Min: 3.00% Max: 3.52%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 92/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 92
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 96.43% SENT: 28 LOST: 1
+Node: 3 PDR: 71.43% SENT: 28 LOST: 8
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 22 LOST: 0
+Node: 8 PDR: 78.57% SENT: 28 LOST: 6
+Node: 9 PDR: 67.86% SENT: 28 LOST: 9
+Node: 10 PDR: 95.65% SENT: 23 LOST: 1
+Overall PDR: 90.71% (25 LOST / 269 SENT)
+
+***** Latency *****
+Average: 83.17 ms Stdev: 49.83 ms Min: 19.22 ms Max: 327.73 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.41%
+Node: 2 Duty cycle: 3.09%
+Node: 3 Duty cycle: 3.01%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.07%
+Node: 6 Duty cycle: 3.31%
+Node: 7 Duty cycle: 3.37%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.15%
+Node: 10 Duty cycle: 3.25%
+Overall Duty Cycle: 3.16% Stdev: 0.16% Min: 2.98% Max: 3.41%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 93/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 93
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 82.14% SENT: 28 LOST: 5
+Node: 5 PDR: 95.65% SENT: 23 LOST: 1
+Node: 6 PDR: 96.43% SENT: 28 LOST: 1
+Node: 7 PDR: 100.00% SENT: 23 LOST: 0
+Node: 8 PDR: 92.86% SENT: 28 LOST: 2
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 100.00% SENT: 24 LOST: 0
+Overall PDR: 95.86% (11 LOST / 266 SENT)
+
+***** Latency *****
+Average: 353.94 ms Stdev: 2651.76 ms Min: 19.09 ms Max: 39890.04 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.32%
+Node: 2 Duty cycle: 3.11%
+Node: 3 Duty cycle: 3.22%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.07%
+Node: 6 Duty cycle: 3.14%
+Node: 7 Duty cycle: 3.64%
+Node: 8 Duty cycle: 3.07%
+Node: 9 Duty cycle: 3.25%
+Node: 10 Duty cycle: 3.39%
+Overall Duty Cycle: 3.22% Stdev: 0.19% Min: 2.97% Max: 3.64%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 94/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 94
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 92.86% SENT: 28 LOST: 2
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 96.43% SENT: 28 LOST: 1
+Node: 5 PDR: 92.86% SENT: 28 LOST: 2
+Node: 6 PDR: 96.43% SENT: 28 LOST: 1
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 96.30% SENT: 27 LOST: 1
+Node: 9 PDR: 100.00% SENT: 25 LOST: 0
+Node: 10 PDR: 96.15% SENT: 26 LOST: 1
+Overall PDR: 96.68% (9 LOST / 271 SENT)
+
+***** Latency *****
+Average: 86.56 ms Stdev: 69.86 ms Min: 19.16 ms Max: 497.31 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.44%
+Node: 2 Duty cycle: 3.10%
+Node: 3 Duty cycle: 3.10%
+Node: 4 Duty cycle: 2.96%
+Node: 5 Duty cycle: 3.09%
+Node: 6 Duty cycle: 3.27%
+Node: 7 Duty cycle: 3.52%
+Node: 8 Duty cycle: 2.99%
+Node: 9 Duty cycle: 3.08%
+Node: 10 Duty cycle: 3.42%
+Overall Duty Cycle: 3.20% Stdev: 0.20% Min: 2.96% Max: 3.52%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 95/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 95
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 25 LOST: 0
+Node: 2 PDR: 100.00% SENT: 27 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 27 LOST: 0
+Node: 6 PDR: 100.00% SENT: 27 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 100.00% SENT: 23 LOST: 0
+Node: 9 PDR: 96.30% SENT: 27 LOST: 1
+Node: 10 PDR: 100.00% SENT: 27 LOST: 0
+Overall PDR: 99.62% (1 LOST / 264 SENT)
+
+***** Latency *****
+Average: 93.43 ms Stdev: 69.52 ms Min: 16.74 ms Max: 590.58 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.24%
+Node: 2 Duty cycle: 3.06%
+Node: 3 Duty cycle: 3.07%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.11%
+Node: 6 Duty cycle: 3.39%
+Node: 7 Duty cycle: 3.71%
+Node: 8 Duty cycle: 2.97%
+Node: 9 Duty cycle: 3.19%
+Node: 10 Duty cycle: 3.50%
+Overall Duty Cycle: 3.22% Stdev: 0.24% Min: 2.97% Max: 3.71%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 96/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 96
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 100.00% SENT: 28 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 21 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 25 LOST: 0
+Overall PDR: 100.00% (0 LOST / 270 SENT)
+
+***** Latency *****
+Average: 83.93 ms Stdev: 54.93 ms Min: 16.77 ms Max: 393.27 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.23%
+Node: 2 Duty cycle: 3.08%
+Node: 3 Duty cycle: 3.17%
+Node: 4 Duty cycle: 2.97%
+Node: 5 Duty cycle: 3.08%
+Node: 6 Duty cycle: 3.27%
+Node: 7 Duty cycle: 3.49%
+Node: 8 Duty cycle: 3.01%
+Node: 9 Duty cycle: 3.08%
+Node: 10 Duty cycle: 3.38%
+Overall Duty Cycle: 3.18% Stdev: 0.17% Min: 2.97% Max: 3.49%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 97/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 97
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 24 LOST: 0
+Node: 3 PDR: 100.00% SENT: 22 LOST: 0
+Node: 4 PDR: 100.00% SENT: 25 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 96.43% SENT: 28 LOST: 1
+Node: 8 PDR: 96.43% SENT: 28 LOST: 1
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 27 LOST: 0
+Overall PDR: 99.25% (2 LOST / 266 SENT)
+
+***** Latency *****
+Average: 90.19 ms Stdev: 87.94 ms Min: 19.00 ms Max: 1019.23 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.40%
+Node: 2 Duty cycle: 3.16%
+Node: 3 Duty cycle: 3.13%
+Node: 4 Duty cycle: 2.98%
+Node: 5 Duty cycle: 3.05%
+Node: 6 Duty cycle: 3.33%
+Node: 7 Duty cycle: 3.35%
+Node: 8 Duty cycle: 3.04%
+Node: 9 Duty cycle: 3.09%
+Node: 10 Duty cycle: 3.52%
+Overall Duty Cycle: 3.20% Stdev: 0.18% Min: 2.98% Max: 3.52%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 98/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 98
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 25 LOST: 0
+Node: 2 PDR: 100.00% SENT: 28 LOST: 0
+Node: 3 PDR: 92.86% SENT: 28 LOST: 2
+Node: 4 PDR: 100.00% SENT: 21 LOST: 0
+Node: 5 PDR: 100.00% SENT: 28 LOST: 0
+Node: 6 PDR: 96.00% SENT: 25 LOST: 1
+Node: 7 PDR: 100.00% SENT: 26 LOST: 0
+Node: 8 PDR: 89.29% SENT: 28 LOST: 3
+Node: 9 PDR: 92.86% SENT: 28 LOST: 2
+Node: 10 PDR: 92.31% SENT: 26 LOST: 2
+Overall PDR: 96.20% (10 LOST / 263 SENT)
+
+***** Latency *****
+Average: 85.08 ms Stdev: 67.39 ms Min: 19.37 ms Max: 559.35 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.50%
+Node: 2 Duty cycle: 3.14%
+Node: 3 Duty cycle: 3.11%
+Node: 4 Duty cycle: 2.99%
+Node: 5 Duty cycle: 3.09%
+Node: 6 Duty cycle: 3.31%
+Node: 7 Duty cycle: 3.37%
+Node: 8 Duty cycle: 2.98%
+Node: 9 Duty cycle: 3.09%
+Node: 10 Duty cycle: 3.42%
+Overall Duty Cycle: 3.20% Stdev: 0.18% Min: 2.98% Max: 3.50%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 99/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 99
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 28 LOST: 0
+Node: 2 PDR: 100.00% SENT: 24 LOST: 0
+Node: 3 PDR: 96.43% SENT: 28 LOST: 1
+Node: 4 PDR: 100.00% SENT: 24 LOST: 0
+Node: 5 PDR: 96.43% SENT: 28 LOST: 1
+Node: 6 PDR: 100.00% SENT: 28 LOST: 0
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 100.00% SENT: 21 LOST: 0
+Node: 9 PDR: 100.00% SENT: 28 LOST: 0
+Node: 10 PDR: 100.00% SENT: 23 LOST: 0
+Overall PDR: 99.22% (2 LOST / 257 SENT)
+
+***** Latency *****
+Average: 105.08 ms Stdev: 290.97 ms Min: 19.43 ms Max: 4646.65 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.33%
+Node: 2 Duty cycle: 3.23%
+Node: 3 Duty cycle: 3.21%
+Node: 4 Duty cycle: 2.98%
+Node: 5 Duty cycle: 3.01%
+Node: 6 Duty cycle: 3.30%
+Node: 7 Duty cycle: 3.45%
+Node: 8 Duty cycle: 2.97%
+Node: 9 Duty cycle: 3.11%
+Node: 10 Duty cycle: 3.41%
+Overall Duty Cycle: 3.20% Stdev: 0.18% Min: 2.97% Max: 3.45%
+
+====================================================================================================
+ Simulation File: test_nogui_dc.csc - Run 100/100 
+====================================================================================================
+
+>>> SIMULATION DETAILS <<<
+Run number: 100
+
+>>> ANALYSIS RESULTS <<<
+Namespace(dir_path='.', testbed=False)
+***** PDR *****
+Node: 1 PDR: 100.00% SENT: 27 LOST: 0
+Node: 2 PDR: 100.00% SENT: 25 LOST: 0
+Node: 3 PDR: 100.00% SENT: 21 LOST: 0
+Node: 4 PDR: 100.00% SENT: 28 LOST: 0
+Node: 5 PDR: 95.83% SENT: 24 LOST: 1
+Node: 6 PDR: 96.43% SENT: 28 LOST: 1
+Node: 7 PDR: 100.00% SENT: 25 LOST: 0
+Node: 8 PDR: 100.00% SENT: 28 LOST: 0
+Node: 9 PDR: 96.43% SENT: 28 LOST: 1
+Node: 10 PDR: 100.00% SENT: 26 LOST: 0
+Overall PDR: 98.85% (3 LOST / 260 SENT)
+
+***** Latency *****
+Average: 136.17 ms Stdev: 833.08 ms Min: 19.02 ms Max: 13412.99 ms
+
+***** Duty Cycle *****
+Node: 1 Duty cycle: 3.45%
+Node: 2 Duty cycle: 3.08%
+Node: 3 Duty cycle: 3.19%
+Node: 4 Duty cycle: 2.94%
+Node: 5 Duty cycle: 3.05%
+Node: 6 Duty cycle: 3.25%
+Node: 7 Duty cycle: 3.47%
+Node: 8 Duty cycle: 3.03%
+Node: 9 Duty cycle: 3.04%
+Node: 10 Duty cycle: 3.42%
+Overall Duty Cycle: 3.19% Stdev: 0.20% Min: 2.94% Max: 3.47%

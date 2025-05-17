@@ -1,0 +1,39 @@
+
+
+===========NODES 11-26===========
+------DAY TESTS------
+
+16-05_1400_nullrdc-conservative_nodes-11-26_900s
+16-05_1420_contikimac32-conservative_nodes-11-26_900s
+16-05_1440_contikimac16-conservative_nodes-11-26_900s
+
+------NIGHT TESTS------
+
+16-05_0200_nullrdc-conservative_nodes-11-26_900s
+16-05_0220_contikimac32-conservative_nodes-11-26_900s
+16-05_0240_contikimac16-conservative_nodes-11-26_900s
+
+17-05_0200_contikimacDEF-conservative_nodes-11-26_900s
+
+
+
+===========NODES 1-36===========
+------DAY TESTS------
+
+16-05_1500_nullrdc-conservative_nodes-1-36_900s
+16-05_1520_contikimac32-conservative_nodes-1-36_900s
+16-05_1540_contikimac16-conservative_nodes-1-36_900s
+
+------NIGHT TESTS------
+
+16-05_0300_nullrdc-conservative_nodes-1-36_900s
+16-05_0320_contikimac32-conservative_nodes-1-36_900s
+16-05_0340_contikimac16-conservative_nodes-1-36_900s
+
+17-05_0220_contikimacDEF-conservative_nodes-1-36_900s
+
+
+
+
+
+

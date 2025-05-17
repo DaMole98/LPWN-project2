@@ -1,0 +1,28 @@
+Namespace(logfile='job.log', testbed=True)
+Logfile: job.log
+Testbed experiment
+
+Node 11:  Duty Cycle: 1.574%
+Node 12:  Duty Cycle: 1.561%
+Node 13:  Duty Cycle: 1.465%
+Node 14:  Duty Cycle: 1.636%
+Node 15:  Duty Cycle: 1.574%
+Node 16:  Duty Cycle: 1.684%
+Node 17:  Duty Cycle: 2.654%
+Node 18:  Duty Cycle: 1.515%
+Node 19:  Duty Cycle: 2.329%
+Node 20:  Duty Cycle: 2.092%
+Node 21:  Duty Cycle: 2.844%
+Node 22:  Duty Cycle: 2.683%
+Node 23:  Duty Cycle: 1.403%
+Node 24:  Duty Cycle: 1.639%
+Node 25:  Duty Cycle: 2.063%
+Node 26:  Duty Cycle: 1.720%
+
+----- Duty Cycle Overall Statistics -----
+
+Average Duty Cycle: 1.902%
+Standard Deviation: 0.464
+Minimum: 1.403%
+Maximum: 2.844%
+
