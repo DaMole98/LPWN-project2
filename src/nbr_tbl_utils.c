@@ -59,24 +59,24 @@ void nbr_tbl_cleanup_cb(void *ptr) {
     
 
     //pass 2: removing the entries
-    uint8_t i;
-    for(i=0; i< stales_count; i++){
-      
-        if(stales[i]->type == NODE_CHILD)
-            remove_subtree(nbr_tbl, conn, *nbr_table_get_lladdr(nbr_tbl, stales[i]));
-        else if (stales[i]->type == NODE_PARENT){ //if the parent is being removed, then you need to change the parent
-            nbr_table_remove(nbr_tbl, stales[i]);
-            parent_change = true;
-            conn->parent = linkaddr_null;
-            //conn->tpl_buf.stat_addr_arr[conn->tpl_buf.size++] = (stat_addr_t){.addr = *nbr_table_get_lladdr(nbr_tbl, stales[i]), .status = STATUS_REMOVE};
-        }
-        else{ //if not a child nor a parent, then it is a neighbor (or a descendant during the state reset on receiving a new beacon)
-            nbr_table_remove(nbr_tbl, stales[i]);
-            //conn->tpl_buf.stat_addr_arr[conn->tpl_buf.size++] = (stat_addr_t){.addr = *nbr_table_get_lladdr(nbr_tbl, stales[i]), .status = STATUS_REMOVE};
-        }
-       
+  uint8_t i;
+  for(i=0; i< stales_count; i++){
     
-    }
+      if(stales[i]->type == NODE_CHILD)
+          remove_subtree(nbr_tbl, conn, *nbr_table_get_lladdr(nbr_tbl, stales[i]));
+      else if (stales[i]->type == NODE_PARENT){ //if the parent is being removed, then you need to change the parent
+          nbr_table_remove(nbr_tbl, stales[i]);
+          parent_change = true;
+          conn->parent = linkaddr_null;
+          //conn->tpl_buf.stat_addr_arr[conn->tpl_buf.size++] = (stat_addr_t){.addr = *nbr_table_get_lladdr(nbr_tbl, stales[i]), .status = STATUS_REMOVE};
+      }
+      else{ //if not a child nor a parent, then it is a neighbor (or a descendant during the state reset on receiving a new beacon)
+          nbr_table_remove(nbr_tbl, stales[i]);
+          //conn->tpl_buf.stat_addr_arr[conn->tpl_buf.size++] = (stat_addr_t){.addr = *nbr_table_get_lladdr(nbr_tbl, stales[i]), .status = STATUS_REMOVE};
+      }
+     
+  
+  }
 
     /* Schedule next cleanup */
     ctimer_reset(&conn->nbr_tbl_cleanup_timer);
