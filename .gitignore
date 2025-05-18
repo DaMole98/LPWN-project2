@@ -54,5 +54,6 @@ dkms.conf
 # CUSTOM
 *.sky
 *.zoul
+*.bin
 COOJA.log
 .vscode

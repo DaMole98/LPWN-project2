@@ -9,12 +9,12 @@
 #define RSSI_HIGH_REF (-35)
 #define RSSI_LOW_THR (-85)
 #define DELTA_ETX_MIN   0.30f 
-#define THR_H       100.0f
+#define THR_H       50.0f
 
 #if RDC_MODE == RDC_NULLRDC
     #define ALPHA 0.9f //metric inertia
 #elif RDC_MODE == RDC_CONTIKIMAC
-    #define ALPHA 0.9f //metric inertia
+    #define ALPHA 0.50f //metric inertia
 #endif
 
 /*-----METRIC DEFINITIONS-----*/

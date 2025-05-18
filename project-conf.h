@@ -27,8 +27,8 @@
 #define RDC_MODE RDC_CONTIKIMAC
 
 #if NETSTACK_CONF_RDC == contikimac_driver
-    //#undef NETSTACK_RDC_CHANNEL_CHECK_RATE
-    //#define NETSTACK_RDC_CHANNEL_CHECK_RATE 16  // wake up every 31.25ms (1/CHECK_RATE)
+    #undef NETSTACK_RDC_CHANNEL_CHECK_RATE
+    #define NETSTACK_RDC_CHANNEL_CHECK_RATE 16  // wake up every (1/CHECK_RATE) seconds
     #define CHANNEL_CHECK_INTERVAL_TICKS ((CLOCK_SECOND / NETSTACK_RDC_CHANNEL_CHECK_RATE) + ((CLOCK_SECOND/200))) //add 5ms to the check interval
 #endif
 
