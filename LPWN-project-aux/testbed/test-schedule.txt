@@ -25,6 +25,9 @@
 23-05_1420_contikimac16-balanced_nodes-1-36_900s
 23-05_1440_contikimac16-responsive_nodes-1-36_900s
 
+26-05_1420_contikimac16-conservative_nodes-1-36_900s
+26-05_1440_contikimacDEF-conservative_nodes-1-36_900s
+
 
 ------NIGHT TESTS------
 
@@ -32,6 +35,8 @@
 24-05_0200_contikimac16-balanced_nodes-1-36_900s
 24-05_0220_contikimac16-responsive_nodes-1-36_900s
 
+25-05_0200_contikimac16-conservative_nodes-1-36_900s
+25-05_0220_contikimacDEF-conservative_nodes-1-36_900s
 
 
 

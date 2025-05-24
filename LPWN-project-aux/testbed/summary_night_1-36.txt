@@ -1,17 +1,17 @@
 ============================================================
-16-05_1400_nullrdc-conservative_nodes-11-26_900s Summary
+19-05_0200_nullrdc-conservative_nodes-1-36_900s Summary
 ============================================================
-Overall PDR: 90.79% (29 LOST / 315 SENT)
+Overall PDR: 96.64% (25 LOST / 745 SENT)
 Average Duty Cycle: 100.000%
 
 ============================================================
-16-05_1420_contikimac32-conservative_nodes-11-26_900s Summary
+24-05_0200_contikimac16-balanced_nodes-1-36_900s Summary
 ============================================================
-Overall PDR: 86.48% (43 LOST / 318 SENT)
-Average Duty Cycle: 3.672%
+Overall PDR: 80.19% (149 LOST / 752 SENT)
+Average Duty Cycle: 2.749%
 
 ============================================================
-16-05_1440_contikimac16-conservative_nodes-11-26_900s Summary
+24-05_0220_contikimac16-responsive_nodes-1-36_900s Summary
 ============================================================
-Overall PDR: 90.99% (29 LOST / 322 SENT)
-Average Duty Cycle: 2.536%
+Overall PDR: 67.17% (239 LOST / 728 SENT)
+Average Duty Cycle: 2.810%

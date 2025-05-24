@@ -78,7 +78,7 @@ def process_group(dirs, base_dir, summary_path, plot_path, title):
     # write summary file
     with open(summary_path, 'w') as f:
         f.write("\n".join(summary_lines))
-    print(f"✔ Summary written to {summary_path}")
+    print(f"Summary written to {summary_path}")
 
     # prepare the bar chart
     n = len(labels)
@@ -126,7 +126,7 @@ def process_group(dirs, base_dir, summary_path, plot_path, title):
     plt.tight_layout(rect=[0, 0, 1, 0.95])
     plt.savefig(plot_path)
     plt.close(fig)
-    print(f"✔ Plot saved as      {plot_path}")
+    print(f"Plot saved as      {plot_path}")
 
 def main(base_dir, summary_file, plot_file, title):
     # discover all subdirectories

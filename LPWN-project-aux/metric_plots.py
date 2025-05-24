@@ -111,7 +111,7 @@ for i in range(T//seg_len):
     plt.text(i*seg_len+seg_len/2, ymax*0.9,
              rf'$p_{{ACK}}={p_mean:.2f}$', ha='center', va='top', fontsize=8)
 
-# --- 4) Calcolo metrica cumulativa M_v(t) su tutti i depth ---
+# --- 4) Calculating cumulative metric M_v(t) over all depths ---
 alpha_M = 0.75
 etx_h = np.zeros((depth, T))
 for d in range(depth):
