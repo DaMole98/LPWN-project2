@@ -8,6 +8,7 @@ This project implements a tree-based any-to-any routing protocol atop an existin
 
 ```
 project-root/
+├── LPWN-project-aux/     #companion folder with tests and analysis scripts
 ├── src/                 # Source files
 │   ├── rp.c
 │   ├── metric.c
@@ -20,12 +21,8 @@ project-root/
 │   ├── analysis.py
 │   ├── energest-stats.py
 │   ├── batch_runner.py
-│   ├── batch_analysis.py
-│   ├── metric_plots.py
 │   ├── parser.py
-│   ├── get-pip.py
-│   ├── batches_comparison.py
-│   └── etx_estimation_plot.py
+│   └── get-pip.py
 ├── Makefile             # Compilation instructions
 └── project-conf.h       # Project configuration
 ```

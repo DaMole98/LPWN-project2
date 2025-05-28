@@ -1,0 +1,48 @@
+Namespace(logfile='job.log', testbed=True)
+Logfile: job.log
+Testbed experiment
+
+Node 1:  Duty Cycle: 4.811%
+Node 2:  Duty Cycle: 4.059%
+Node 3:  Duty Cycle: 4.635%
+Node 4:  Duty Cycle: 3.967%
+Node 5:  Duty Cycle: 5.572%
+Node 6:  Duty Cycle: 4.892%
+Node 7:  Duty Cycle: 3.781%
+Node 8:  Duty Cycle: 3.428%
+Node 9:  Duty Cycle: 3.617%
+Node 10:  Duty Cycle: 4.393%
+Node 11:  Duty Cycle: 4.861%
+Node 12:  Duty Cycle: 3.592%
+Node 13:  Duty Cycle: 2.481%
+Node 14:  Duty Cycle: 3.139%
+Node 15:  Duty Cycle: 2.734%
+Node 16:  Duty Cycle: 3.834%
+Node 17:  Duty Cycle: 4.109%
+Node 18:  Duty Cycle: 1.594%
+Node 19:  Duty Cycle: 2.844%
+Node 20:  Duty Cycle: 2.042%
+Node 21:  Duty Cycle: 3.710%
+Node 22:  Duty Cycle: 3.006%
+Node 23:  Duty Cycle: 2.587%
+Node 24:  Duty Cycle: 3.224%
+Node 25:  Duty Cycle: 3.700%
+Node 26:  Duty Cycle: 3.968%
+Node 27:  Duty Cycle: 3.809%
+Node 28:  Duty Cycle: 3.578%
+Node 29:  Duty Cycle: 3.615%
+Node 30:  Duty Cycle: 2.570%
+Node 31:  Duty Cycle: 3.241%
+Node 32:  Duty Cycle: 4.683%
+Node 33:  Duty Cycle: 4.425%
+Node 34:  Duty Cycle: 4.458%
+Node 35:  Duty Cycle: 3.777%
+Node 36:  Duty Cycle: 3.566%
+
+----- Duty Cycle Overall Statistics -----
+
+Average Duty Cycle: 3.675%
+Standard Deviation: 0.843
+Minimum: 1.594%
+Maximum: 5.572%
+
