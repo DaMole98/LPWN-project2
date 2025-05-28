@@ -1,3 +1,9 @@
+/*
+ *
+ * Student Name: Damiano Salvaterra
+ *
+ */
+
 #ifndef METRIC_UTILS_H
 #define METRIC_UTILS_H
 

@@ -1,3 +1,8 @@
+/*
+ *
+ * Student Name: Damiano Salvaterra
+ *
+ */
 #ifndef RP_TYPES
 #define RP_TYPES
 
