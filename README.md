@@ -118,4 +118,4 @@ Use provided Python scripts for detailed evaluation.
 
 ## Notes
 
-For detailed protocol description and further instructions, refer to the project report.
+For detailed protocol description and further instructions, refer to the project [report](https://github.com/DaMole98/LPWN-project2/blob/main/LPWN-project-aux/report.pdf).
